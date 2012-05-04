@@ -1,0 +1,200 @@
+[2010-01-03 22:04:22] [INFO] Now logging to <file:///C:/Documents%20and%20Settings/Alyx/Dane%20aplikacji/Mozilla/Firefox/Profiles/zoltarx/chatzilla/logs/poznan.ircnet.pl/channels/%23galaxy.2010-01-03.log>.
+[2010-01-03 22:04:22] [INFO] Channel view for ``#galaxy'' opened.
+[2010-01-03 22:04:22] === 3 unknown connections
+[2010-01-03 22:04:22] *Global* [Wiadomo¶æ powitalna - Cze 25 2009] Statystyki sieci dostepne sa na stronie http://www.ircnet.pl/denora/ - jak ktos chce staty dla swojego kanalu to /msg Szymek
+[2010-01-03 22:04:22] *Global* [Losowa wiadomo¶æ - Lip 05 2009] Spoofy mozna zakladac poleceniem /hs request spoof, wiecej informacji na stronie http://www.ircnet.pl/wiki/Spoof
+[2010-01-03 22:04:22] =-= User mode for zoltraks is now +i
+[2010-01-03 22:04:26] -->| YOU (zoltraks) have joined #galaxy
+[2010-01-03 22:04:26] =-= Topic for #galaxy is ``HO HO HOLY CRAP!!!''
+[2010-01-03 22:04:26] =-= Topic for #galaxy was set by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN on 1 stycznia 2010 00:17:34
+[2010-01-03 22:04:26] *dziewica* [#galaxy] Guten Tag -_-
+[2010-01-03 22:05:48] <heavy_mental> 4Gazeta SondaĹź-niespodzianka: Borowski goni Gronkiewicz-Waltz - 12http://wiadomosci.gazeta.pl/Wiadomosci/1,80271,7416148,Sondaz_GFK_Polonia__Waltz__potem_Borowski_w_wyscigu.html?skad=rss 4Gazeta
+[2010-01-03 22:06:40] <zoltraks> hmm... http://www.ircnet.pl/denora/?m=c&p=status&chan=%23galaxy
+[2010-01-03 22:16:04] <zoltraks> thomas ;-)
+[2010-01-03 22:16:08] <zoltraks> teraz zajarzylem
+[2010-01-03 22:20:18] <zoltraks> http://galaxy.game-host.org/server-info/ i http://galaxy.game-host.org/server-status/ są dostępne, ale jedynie dla wybranych numerów IP -> Lander, masz to w /etc/httpd/httpd-info.conf tyle, ze po zmianie trzeba zrobic restart WWW -> /etc/rc.d/rc.httpd restart
+[2010-01-03 22:26:06] <heavy_mental> poszedl spac
+[2010-01-03 22:31:08] <Desmond> ?
+[2010-01-03 22:31:41] <zoltraks> siemka
+[2010-01-03 22:31:48] <zoltraks> powinienes tez chyba miec dostep
+[2010-01-03 22:32:15] <zoltraks> ja sie zastanawiam jak wylapac walkarzy i ich po IP blokowac zeby na czas poprawienia lat gry nie rozwalili
+[2010-01-03 22:33:12] <Desmond> Najlepiej najpierw popoprawiac to co wiemy, a potem monitorować albo nie wiem
+[2010-01-03 22:33:21] <Desmond> w GFNA mieli jakis system do �ledzenia wałów
+[2010-01-03 22:33:31] <Desmond> chyba
+[2010-01-03 22:35:21] <zoltraks> no, a co wiemy oprocz tego co jest napisane na wiki (w sumie 2 rzeczy tylko)?
+[2010-01-03 22:35:42] <zoltraks> ja teraz sprawdzam wywolania i wszystkie niepoprawne loguje do log/security
+[2010-01-03 22:35:58] <zoltraks> teraz dopiero wstalem, zeby to juz dokonczyc i odpalic na game-host
+[2010-01-03 22:36:31] <Desmond> Hm, poprawione jest wszędzie sprawdzanie liczb?
+[2010-01-03 22:36:36] <zoltraks> nie wiem
+[2010-01-03 22:36:39] <zoltraks> musze sprawdzic
+[2010-01-03 22:36:43] <Desmond> Bo to był główny wał - spacyjka i np mnożenie wojska
+[2010-01-03 22:36:55] <zoltraks> ach, wystarcza rzuty w sumie na (int)'y
+[2010-01-03 22:37:01] <Desmond> NO tak :D
+[2010-01-03 22:37:06] <heavy_mental> chyba byl jeszcze walek, ze z wypraw przyjezdzala ogromna ilosc surowcow i mozna bylo to trzymac mimo ogrniczonej pojemnosci magazynow
+[2010-01-03 22:37:22] <Desmond> (int) załatwia chyba sprawę ze wszystkimi wałkami
+[2010-01-03 22:37:41] <Desmond> Niezależnie czy to jest jakie� wstrzykiwanie kodu czy co� innego, Jak nie integer - to wypierdalać
+[2010-01-03 22:37:49] <Desmond> A przynajmniej tak mi sie wydaje :>
+[2010-01-03 22:40:26] <zoltraks> dobra, to sprawdzam, najwyzej bedzie za duzo kodu, potem sie kiedys zoptymalizuje
+[2010-01-03 22:41:43] <Desmond> :P
+[2010-01-03 22:42:20] <Desmond> Hm, ja teraz to nie znam tych bugów co były, wiem że prócz najemników było kilka innych. Nie wiem czy to były to co ze spamowaniem bazy, ale popytaj się bli�niaka może
+[2010-01-03 22:42:29] <Desmond> Gracze też raczej chętnie nie powiedzš
+[2010-01-03 22:42:43] <Desmond> A ja więcej 1000 g na koncie u bli�niakia mieć nie będę
+[2010-01-03 22:49:22] <zoltraks> blizniak nie wie
+[2010-01-03 22:49:45] <zoltraks> dobra, wyjdzie w praniu, kurde, jutro do robo a tu pare godzin trzeba posiedziec
+[2010-01-03 22:49:49] <heavy_mental> 4Gazeta Zakazany w Polsce film o "Ĺ�owcach skĂłr" jest w internecie - 12http://wiadomosci.gazeta.pl/Wiadomosci/1,80273,7415346,Zakazany_w_Polsce_film_o__lowcach_skor__mozna_zobaczyc.html?skad=rss 4Gazeta
+[2010-01-03 22:50:01] <Desmond> Hm, a co on wie?
+[2010-01-03 22:50:04] <zoltraks> zalalem sasiada przedwczoraj i dzis musialem rurki w lazience powyciagac
+[2010-01-03 22:50:14] <zoltraks> i uszczelnic, jak ja nie lubie takiej roboty
+[2010-01-03 22:50:37] <Desmond> No, jak sšsiad zalany to pewnie imprezował nie�le
+[2010-01-03 22:51:02] <zoltraks> heh
+[2010-01-03 23:02:04] <zoltraks> chcesz pobrechtac?
+[2010-01-03 23:02:14] <Desmond> ?
+[2010-01-03 23:02:33] <Desmond> Wolę nie wiedziec co tam znalazles ...
+[2010-01-03 23:02:50] <zoltraks> http://galaxy.game-host.org/link/media/2010-01-03/
+[2010-01-03 23:03:02] <zoltraks> zrzut konsoli do gry, zaczalem ja pisac, ale jak wiele rzeczy, porzucilem
+[2010-01-03 23:03:12] <zoltraks> i kawalek ze strony aydamuska
+[2010-01-03 23:04:04] <zoltraks> to w konsoli mialo pracowac na bazie SQL do legends, wiec moze kiedys do czegos sie przyda
+[2010-01-03 23:04:32] <Desmond> Ze strony Aydamuska?
+[2010-01-03 23:04:43] <Desmond> Hmmm
+[2010-01-03 23:04:53] <zoltraks> no, piesn zoltraksa - w sensie, ze wiersz napisal
+[2010-01-03 23:04:56] <zoltraks> to jest koles
+[2010-01-03 23:05:00] <Desmond> A, widze
+[2010-01-03 23:05:35] <Desmond> Hm, on tam mial wiecej takich :)
+[2010-01-03 23:05:40] <zoltraks> no, niestety
+[2010-01-03 23:05:48] <zoltraks> napisalem do niego, jak sie odezwie to moze cos odzyskamy
+[2010-01-03 23:06:13] <Desmond> Galeria użytkowników też była
+[2010-01-03 23:06:22] <zoltraks> http://www.nauka.gildia.pl/publicystyka/nad_glowami/napedy_kosmiczne
+[2010-01-03 23:08:46] <Desmond> No podstawy teoretyczne mamy
+[2010-01-03 23:08:56] <Desmond> Ja wczoraj startreka tego nowego oglšdałem, ech ...
+[2010-01-03 23:12:31] <heavy_mental> 4Wykop Za logo Nike dostaĹ�a 35 dolarĂłw. SkÄ�d siÄ� wziÄ�Ĺ� popularny znaczek? - 12http://www.wykop.pl/link/280204/za-logo-nike-dostala-35-dolarow-skad-sie-wzial-popularny-znaczek 4Wykop
+[2010-01-03 23:17:53] <heavy_mental> 4Wykop A jak bardzo troskliwi sÄ� Twoi rodzice? Filmik z '18'. - 12http://www.wykop.pl/link/280457/a-jak-bardzo-troskliwi-sa-twoi-rodzice-filmik-z-18 4Wykop
+[2010-01-03 23:17:53] <heavy_mental> 4Wykop Polskie satelity zbadajÄ� najgorÄ�tsze gwiazdy - 12http://www.wykop.pl/link/280195/polskie-satelity-zbadaja-najgoretsze-gwiazdy 4Wykop
+[2010-01-03 23:25:06] <zoltraks> mi sie podobal
+[2010-01-03 23:25:07] <zoltraks> http://wiki.rgk.alyx.pl/index.php/CREW_LEGENDS
+[2010-01-03 23:25:45] <zoltraks> ech... kiedys sie ascii arty robilo ;-P
+[2010-01-03 23:26:12] <Desmond> :P
+[2010-01-03 23:26:22] <Desmond> Ja do sse i sq dałem z generatora
+[2010-01-03 23:28:11] <zoltraks> hehehe
+[2010-01-03 23:28:13] <zoltraks> ooo
+[2010-01-03 23:28:23] <zoltraks> nie zajrzalem do SQ, przepraszam...
+[2010-01-03 23:28:39] <Desmond> E, krój ten sam co w SSE
+[2010-01-03 23:28:40] <zoltraks> acha
+[2010-01-03 23:28:42] <zoltraks> no tak
+[2010-01-03 23:28:44] <zoltraks> SQ Edition
+[2010-01-03 23:29:13] <zoltraks> dobra, historycznie moze byc
+[2010-01-03 23:29:18] <zoltraks> to tylko pare kilo tekstu
+[2010-01-03 23:29:19] <zoltraks> ;P
+[2010-01-03 23:29:23] <Desmond> :P
+[2010-01-03 23:31:43] -->| mgrDesmond (~Miranda@94.254.201.208) has joined #galaxy
+[2010-01-03 23:31:43] <mgrDesmond> Elo dropsy!
+[2010-01-03 23:31:44] |<-- Desmond has left poznan.ircnet.pl (NickServ (GHOST command used by mgrDesmond))
+[2010-01-03 23:31:47] =-= mgrDesmond is now known as Desmond
+[2010-01-03 23:31:51] =-= Mode #galaxy +o Desmond by dziewica
+[2010-01-03 23:32:21] <Desmond> Ech, wypas ta neostrada ...
+[2010-01-03 23:40:08] <zoltraks> e, looz, o ktorej idziesz w kime?
+[2010-01-03 23:41:04] <zoltraks> o, vargi miales?
+[2010-01-03 23:41:18] <zoltraks> sluchaj, miales jakis inny background.jpg?
+[2010-01-03 23:41:21] <Desmond> Vargi?
+[2010-01-03 23:41:32] <Desmond> Nie byłó
+[2010-01-03 23:41:36] <zoltraks> ale obrazek jest
+[2010-01-03 23:41:39] <zoltraks> ty, a w ogole
+[2010-01-03 23:41:43] <Desmond> Ale to Twój był
+[2010-01-03 23:41:49] <zoltraks> tak? kojarzysz taka jednostke littleben?
+[2010-01-03 23:41:53] <Desmond> To było w wersji od Ciebie
+[2010-01-03 23:42:08] <Desmond> HM, littleben i kilka innych było, ale to tylko obrazki były
+[2010-01-03 23:42:16] <zoltraks> kiedys moj kuzyn zrobil kac kupe, ze kibel zapchal, sie smielismy ze zrobil malego bena
+[2010-01-03 23:42:16] <zoltraks> acha
+[2010-01-03 23:42:19] <zoltraks> no...
+[2010-01-03 23:42:34] <zoltraks> dobra, wykorzystamy to kiedys
+[2010-01-03 23:42:38] <Desmond> oO\ to do opisu jednostki wstawić trzeba :>
+[2010-01-03 23:43:11] <heavy_mental> 4Wykop MyKarmaSutraBuddy - dopasuj mÄ�ĹźczyznÄ� do kobiety, wybierz pozycjÄ�... i ucz siÄ�;) - 12http://www.wykop.pl/link/280188/mykarmasutrabuddy-dopasuj-mezczyzne-do-kobiety-wybierz-pozycje-i-ucz-sie 4Wykop
+[2010-01-03 23:43:15] <Desmond> Jednostki ... planujesz wprowadzać te okręty liniowe?
+[2010-01-03 23:43:24] <zoltraks> no jasne
+[2010-01-03 23:43:35] <zoltraks> ale nie wiem jak to tutaj ugryzc
+[2010-01-03 23:43:41] <Desmond> To pewnie my�liwce planetarne, bombowce i takie tma też?
+[2010-01-03 23:43:43] <zoltraks> w legends jest tak, ze kazdy obiekt moze byc podpiety
+[2010-01-03 23:43:58] <zoltraks> wiec wystarczy do hawk dopisac bound=cruiser i juz
+[2010-01-03 23:44:11] <zoltraks> ale jak to w tym obecnym silniku rozwiazac to jeszcze nei wiem
+[2010-01-03 23:44:46] <Desmond> Wiesz, ja my�lę wg starego kodu. I przewidywałem że do jednostek liniowych typu lotniskowiec i inne mniejsze posiadajšce handary, można zapakować ile� tam my�liwców i bombowców zgodnie z ich tonażem
+[2010-01-03 23:44:49] <zoltraks> w sumie wykorzystamy co sie da i nie marw sie iloscia pol w bazie danych
+[2010-01-03 23:45:03] <zoltraks> no i tylko sprawdzac przy wysylaniu transportu/ataku
+[2010-01-03 23:45:04] <zoltraks> tez mozna
+[2010-01-03 23:45:07] <Desmond> *hangary
+[2010-01-03 23:45:10] <zoltraks> na razie idziemy starym kodem
+[2010-01-03 23:45:25] <Desmond> No tak, najpro�ciej.
+[2010-01-03 23:45:55] <Desmond> I jeszcze kwestia taka - my�liwce majš dużš prędko�ć, ale to jest prędko�ć manewrowa.
+[2010-01-03 23:46:30] <Desmond> Wiesz, smok lata i atakuje, takie tam. To trochę dziwne by my�liwce tak cała trasę przeleciały tak jak szept ... na takiej ilo�ci paliwa.
+[2010-01-03 23:47:32] <zoltraks> wlasnie... ten twoj szept niezly byl
+[2010-01-03 23:47:35] <Desmond> Kurde, takie pomysły co mam to sie okaże że chuj wie co nam wyjdzie. Ale generalnie my�liwce powinny mieć swój zasięg wynikajšcy z łšdowno�ci statku. Tak samo większe floty (chyha że majš reaktory).
+[2010-01-03 23:47:42] <Desmond> To nie mój, Sharka
+[2010-01-03 23:48:12] <heavy_mental> 4Wykop Tajemnica dwĂłch kranĂłw - 12http://www.wykop.pl/link/280325/tajemnica-dwoch-kranow 4Wykop
+[2010-01-03 23:48:36] <Desmond> Dlatego po pierwsze - dla my�liwców zabiera się jedynie paliwo potrzebne do walki (energię w zasadzie). A tak to energia do lotu idzie jedynie dla okrętów liniowych, transportowców i takie tam.
+[2010-01-03 23:49:01] <zoltraks> o
+[2010-01-03 23:49:04] <zoltraks> supplies ;P
+[2010-01-03 23:49:08] <zoltraks> mozna by tym handlowac
+[2010-01-03 23:49:14] <zoltraks> i zbierac w questach
+[2010-01-03 23:49:17] <zoltraks> np. nitro
+[2010-01-03 23:49:18] <zoltraks> ;)
+[2010-01-03 23:49:58] <zoltraks> wlasnie, sprobuj zlapac sharka, ja nawet nie wiem jak on sie nazywa ;P
+[2010-01-03 23:50:01] <heavy_mental> 4DEMOT Zatrzymaj siÄ� i posĹ�uchaj - 12http://www.demotywatory.pl/678768?utm_source=Czytnik_rss&utm_medium=link&utm_campaign=rss 4DEMOT
+[2010-01-03 23:50:13] <Desmond> Tak się zastanawiam, że jeżeli by zrobić możliwo�ć ataku czyjej� floty zanim ta dotrze do celu, to ważne by było zapewnienie odpowiedniej ilo�ci energii dla floty. Bo załadujesz tylko tyle ile potrzeba do szturmu, a tutaj kto� Cie sprowokuje po drodze. Przegra, ale nagle się okaze ze zmobilizowała się cała flota my�liwców i potem nie ma do walki energii już
+[2010-01-03 23:50:42] <Desmond> Shark ... on sie i z Kolony wyłšczył i w ogóle. Chyba zapadł się pod Ziemię.
+[2010-01-03 23:51:01] <Desmond> Ty chcesz go do projektu włšczyć czy zezwolenie na jego kod do gf?
+[2010-01-03 23:51:12] <zoltraks> zezwolenie na jego kod
+[2010-01-03 23:51:33] <zoltraks> co do projektu i programowania w nim, to na razie im mniej osob tym lepiej
+[2010-01-03 23:51:45] <zoltraks> bo jak go juz odbugujemy to moze nam wyparowac ;-)
+[2010-01-03 23:52:01] <zoltraks> tzn. do artwork'a i pomyslow na pewno potrzeba kupy ludzi
+[2010-01-03 23:52:06] <Desmond> Ale on na GPL pisał :P
+[2010-01-03 23:52:12] <zoltraks> wiem
+[2010-01-03 23:52:30] <zoltraks> ale wole, zeby wiedzial o tym i wpisal sie na liste autorow
+[2010-01-03 23:53:11] <zoltraks> tzn. i tak juz go mamy, ale wiesz, moze faktycznie bedzie cos chcial kiedys jeszcze porobic w wolnej chwili, moze unka sie uda wciagnac
+[2010-01-03 23:53:26] <zoltraks> dobra, wracam do kodu bo znow gadamy a w tym czasie wszystko stoi
+[2010-01-03 23:53:30] <Desmond> A nie jest wpisany? W crew list jest. Zresztš, nie żębym umniejszał jego rolę, ale on napisał skrypt ataków niby, który jednak jest taki �redni. Ogłoszenia ... ja ogloszenia w SQ chyba od nowa napisałem.
+[2010-01-03 23:53:47] <Desmond> Rangi ... rangi jego już pisałes że nie przejdš :P
+[2010-01-03 23:53:52] <zoltraks> to wezmiemy te ogloszenia
+[2010-01-03 23:54:05] <zoltraks> co potrzebuje do nich?
+[2010-01-03 23:54:08] <zoltraks> bo nie mam bazy SQ
+[2010-01-03 23:54:18] <zoltraks> albo dobra, zajrze
+[2010-01-03 23:54:31] <zoltraks> kurde, alicja chce zebym jej pasemka zrobil - i wez tu w takich warunkach galaxy rob
+[2010-01-03 23:54:39] <Desmond> W ogóle to sobie my�lę tak ...
+[2010-01-03 23:54:48] <zoltraks> pisz, zaraz przeczytam
+[2010-01-03 23:55:14] <Desmond> Galaxy_news zmienić na galaxy_board. I dać możliwo�ć komentowania newsów :D
+[2010-01-03 23:56:17] <Desmond> Taka pełna integracja, wg mnie idelanie by było zrobić co� na kształt database z SSE połšczone z panelem newsów. Tak jak w niektórych portalach phpbb - że jeden z działów forum jest pobierany przez portal i wstawiane sš newsy. A zalogowani mogš np. zjebać nas za podwyższkę cen na giełdzie
+[2010-01-03 23:56:38] <zoltraks> hmm... i punktowanie + -
+[2010-01-03 23:56:45] <zoltraks> cos jak na youtube
+[2010-01-03 23:57:01] <Desmond> Yyy, może galerie użytkowników damy?
+[2010-01-03 23:57:03] <zoltraks> to moze po prostu dopisze sie galaxy_board a potem wywali galaxy_news, zeby to powoli bylo
+[2010-01-03 23:57:19] <zoltraks> no, ale musimy cos ustalic
+[2010-01-03 23:57:27] <Desmond> Hyhy, ej. Ja żartowałem!
+[2010-01-03 23:57:33] <Desmond> Z tš galeriš!
+[2010-01-03 23:57:41] <zoltraks> przez najblzszy czas ja sie skupie na integrowaniu i poprawianiu obecnego kodu
+[2010-01-03 23:57:44] <zoltraks> wiec nic nie dopisze
+[2010-01-03 23:57:46] <Desmond> No wiem
+[2010-01-03 23:57:50] <zoltraks> tzn. nic z takich duzych rzeczy
+[2010-01-03 23:57:51] <zoltraks> wiec
+[2010-01-03 23:58:06] <zoltraks> jesli masz np. gotowy silnik, to jesli sie mu layout zrobi to mozna go na razie podpiac
+[2010-01-03 23:58:14] <zoltraks> a potem sie zastanowimy i ewentualnie sami napiszemy
+[2010-01-03 23:58:36] <Desmond> CREATE TABLE `galaxy_ads` (
+[2010-01-03 23:58:38] <zoltraks> np. ja moge zrobic tak, ze jak koles sie zarejestruje to od razu pojdzie tez rejestracja phpbb
+[2010-01-03 23:58:38] <Desmond> `id` int(11) NOT NULL auto_increment,
+[2010-01-03 23:58:38] <Desmond> `time` int(11) NOT NULL,
+[2010-01-03 23:58:38] <Desmond> `expires` int(11) NOT NULL,
+[2010-01-03 23:58:39] <Desmond> `status` int(6) NOT NULL default '0',
+[2010-01-03 23:58:39] <Desmond> `lang` varchar(6) collate latin1_general_ci NOT NULL,
+[2010-01-03 23:58:39] <Desmond> `class` varchar(16) collate latin1_general_ci NOT NULL,
+[2010-01-03 23:58:39] <Desmond> `type` varchar(12) collate latin1_general_ci NOT NULL,
+[2010-01-03 23:58:39] <Desmond> `notify` int(11) NOT NULL default '0',
+[2010-01-03 23:58:39] <Desmond> `replies` varchar(12) collate latin1_general_ci NOT NULL default '0',
+[2010-01-03 23:58:39] <Desmond> `author` varchar(64) collate latin1_general_ci NOT NULL,
+[2010-01-03 23:58:39] <Desmond> `title` varchar(35) collate latin1_general_ci NOT NULL,
+[2010-01-03 23:58:39] <Desmond> `content` text collate latin1_general_ci NOT NULL,
+[2010-01-03 23:58:39] <Desmond> PRIMARY KEY  (`id`)
+[2010-01-03 23:58:39] <Desmond> ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=9 ;
+[2010-01-03 23:58:39] <Desmond> To sš ogłoszenia
+[2010-01-03 23:58:41] <Desmond> Ja jeszcze sprawdzę je
+[2010-01-03 23:58:42] <zoltraks> o, dzienks
+[2010-01-03 23:59:03] <Desmond> Hehe, no tak też można. Ale na razie forum nie stawiamy z tego co rozmawiali�my.
+[2010-01-03 23:59:14] <zoltraks> nie, to nie
+[2010-01-03 23:59:20] <zoltraks> ja tylko archiwum testowo postawilem
+[2010-01-03 23:59:30] <zoltraks> forum mozesz robic, jesli chcesz
+[2010-01-03 23:59:37] <zoltraks> tzn. kiedy chcesz, czy chcecie

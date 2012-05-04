@@ -1,0 +1,212 @@
+<HTML>
+<HEAD><TITLE> JPilot Chat Room </TITLE><HEAD>
+
+<BODY bgcolor=white>
+
+<center>
+
+<SCRIPT language="JavaScript" src="cp.js"></SCRIPT>
+<center>
+<form name="jform">
+<TABLE width="100%">
+<tr>
+<td bgcolor=gray>
+<font size=-1 color=white>
+Jpilot jIRC applet only support Netscape4.0, IE4.0 or above.<br>
+Please grant the permission when the pop up window appears from Netscape
+and IE.<br>
+</font>
+</td>
+</tr>
+
+<TR><TD align=center>
+<p>
+<a href="javascript:document.jchat.processJInput( ':)' )">
+<img src="classes/applet_images/smile.gif" border=0></a>&nbsp;
+<a href="javascript:document.jchat.processJInput( ':(' )">
+<img src="classes/applet_images/frown.gif" border=0></a>&nbsp;
+<a href="javascript:document.jchat.processJInput( ':D' )">
+<img src="classes/applet_images/biggrin.gif" border=0></a>&nbsp;
+<a href="javascript:document.jchat.processJInput( ':P' )">
+<img src="classes/applet_images/tongue.gif" border=0></a>
+
+<br>
+
+<select name="channels"
+onChange="jchat.processJInput(jform.channels.options[
+jform.channels.selectedIndex].value)">
+<option value="">Select a new Channel
+<option value="/join #wulala1"> #wulala1
+<option value="/join #wulala2"> #wulala2
+<option value="/join #wulala3"> #wulala3
+</select>
+
+<select name="actions"
+onChange="jchat.processJInput(jform.actions.options[
+jform.actions.selectedIndex].value)">
+<option value="">Select an action
+<option value="/me fall down laughing ...."> fall down laughing ....
+<option value="/me just gave you a %Rfinger"> just gave you a finger
+<option value="/me wants to be %C9,4%Blike Mike!"> wants to be like Mike
+</select>
+
+<select name="sound"
+onChange="jchat.processJInput(jform.sound.options[
+jform.sound.selectedIndex].value)">
+<option value="">Play a sound
+<option value="/s yahoo"> Yahoo!
+<option value="/s no"> No !
+<option value="/s ohyea"> Oh Yea!
+</select>
+
+<select name="emotion"
+onChange="jchat.processJInput(jform.emotion.options[
+jform.emotion.selectedIndex].value)">
+<option value=":)"> :)
+<option value=":(">  :(
+<option value=":D"> :D
+<option value=":P"> :P
+<option value=";(">;(
+<option value=":applause:">:applause:
+<option value=":kiss:">:kiss:
+<option value=":hello:">:hello:
+<option value=":banghead:">:banghead:
+<option value=":confused:">:confused:
+<option value=":mad:">:mad:
+<option value=":cool:">:cool:
+<option value=":evil:">:evil:
+<option value=":love:">:love:
+<option value=":thumbup:">:thumbup:
+<option value=":thumbdown:">:thumbdown:
+<option value=":bye:">:bye:
+</select>
+
+</TD</TR>
+
+<TR><TD align=center>
+
+<nobr>
+<applet name="jchat" codebase="classes" archive="jirc_nss.jar,resources.zip"  code=Chat.class 
+width=600 height=290 MAYSCRIPT >
+
+<param name="CABBASE" value="jirc_mss.cab,resources.cab">
+
+<param name="isLimitedServers" value="true">
+<param name="isLimitedChannels" value="true">
+<param name="AllowMultiChannels" value="true">
+<param name="AllowDCCTransfer" value="true">
+<param name="AvatarList" value="jpilot,guest123">
+<param name="AvatarWidth" value="32">
+<param name="AvatarHeight" value="32">
+<param name="FieldNameConsole" value="CONSOLE">
+<param name="UserMenuList" value="Send File=/dccsend %$HN,Private Chat=/pchat %$HN,Ignore=/ignore %$HN,Whois=/whois %$HN,See User Profile=/showprofile %$HN" >
+
+<param name="FilterKeys" value=":) :( :D :P ;) :confused: :mad: :cool: ;( :love: :thumbup: :thumbdown: :evil: :kiss: :hello: :applause: :banghead: :bye:">
+<param name="FilterVals" value="smile.gif frown.gif biggrin.gif tongue.gif wink.gif confused.gif mad.gif cool.gif evil.gif love.gif thumbup.gif thumbdown.gif evil.gif kiss.gif hello.gif applause.gif banghead.gif bye.gif">
+
+<param name="AllowAddressDisplay" value="false">
+                                                                                
+<param name="RoomMenuList" value="Switch to=/join %$HC,Leave=/part %$HC,Open list=/userlist_open %$HC,Close list=/userlist_close %$HC" >
+
+<param name="UseImageButton" value="true">
+<param name="UseModeIcons" value="true">
+
+<param name="CopyMethod" value="JVM">
+
+<param name="HostName" value="jpilot" >
+<param name="TimeStampFormat" value="hh:mm a" >
+<param name="AllowTimeStamp" value="true">
+
+<param name="UserProfileURL" value="http://www.jpilot.com/cgi-bin/products/jirc/viewprofile.cgi?nick" >
+
+<param name="FieldNameProfileButton" value="View profile">
+<param name="FieldNameChannelJoined" value="just entered the chat room" >
+<param name="FieldNameChannelLeft" value="just left the chat room" >
+<param name="FieldNameChannelLeft" value="You just left the chat room" >
+<param name="FieldNameNickNotify" value="has changed his/her nickname to">
+<param name="FieldNamePrivateIgnore" value="Ignore This User">
+<param name="FieldNameConnecting" value="Connecting to the server, please wait ....">
+<param name="FieldNameConnected" value="Connected to server, sending login information ...">
+<param name="FieldNameConnectionClose" value="Connection to server closed.">
+<param name="FieldNameQuitMsg" value="Bye bye">
+<param name="FieldNamePrivateClose" value="Close">
+<param name="FieldNamePrivateChatTitle" value="Private Chat with: ">
+<param name="WelcomeMessage" value="Welcome to Java IRC chat!">
+<param name="RealName" value="JPilot jIRC applet user">
+<param name="NickName" value="jpilot">
+<param name="UserName" value="jirc">
+<param name="IgnoreUser" value="ignore user : ">
+<param name="ActivateUser" value="activate  user : ">
+
+<param name="UserCmdColor" value="yellow">
+<param name="BackgroundColor" value="119,124,170">
+<param name="TextColor" value="white">
+<param name="TextScreenColor" value="black">
+<param name="ListTextColor" value="white">
+<param name="ListScreenColor" value="50,50,100">
+<param name="LogoBorderColor" value="black">
+<param name="ConfigBorderColor" value="204,153,51">
+<param name="LogoBgColor" value="white">
+<param name="TitleForegroundColor" value="white">
+<param name="TitleBackgroundColor" value="black">
+<param name="TextFontSize" value="12">
+<param name="TextFontName" value="Arial">
+<param name="FGColor" value="black">
+<param name="InputTextColor" value="black">
+<param name="InputScreenwhiteColor" value="white">
+
+
+
+<param name="AllowJoinSound" value="true" >
+<param name="AllowLeaveSound" value="true">
+<param name="LogoGifName" value="IRClogo.gif">
+<param name="RefreshColorCode" value="false">
+<param name="SoundMsg" value="Play Sound">
+<param name="NickNameColor" value="6">
+<param name="NickMaskStart" value="">
+<param name="NickMaskEnd" value=":">
+
+<param name="PWindowHeight" value="250">
+<param name="PWindowWidth" value="400">
+<param name="BorderSpacing" value="0">
+<param name="BorderVsp" value="3">
+
+<param name="IgnoreMOTD" value="true">
+<param name="IgnoreModeMsg" value="true">
+<param name="IgnoreServerMsg" value="true">
+<param name="IgnoreCode" value="5" >
+
+
+<param name="ServerPort" value="6667">
+<param name="ServerName1" value="irc.jpilot.com">
+<param name="ServerName2" value="irc.prison.net">
+<param name="Channel1" value="jpilot">
+<param name="Channel2" value="finance">
+<param name="Channel3" value="lobby">
+<param name="Channel4" value="science">
+<param name="Channel5" value="movies">
+<param name="Channel6" value="jpilot">
+<param name="Channel8" value="fun">
+<param name="Channel7" value="chat">
+
+<param name="AllowShowURL" value="true">
+<param name="AllowIdentd" value="true">
+<param name="AllowURL" value="true">
+
+
+
+
+</applet>
+<br>
+
+</TD></TR>
+</TABLE>
+</form>
+
+</center>
+
+</BODY>
+
+
+
+</HTML>

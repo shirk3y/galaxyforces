@@ -1,0 +1,288 @@
+About JPilot's jIRC ( Version 2.8.5)
+--------------------
+jIRC applet is an IRC client on the web.
+jIRC connect your web site visitors to any IRC server around the world. You
+can pick one of more than hundreds freely available IRC servers or you can
+set up your own server.
+jIRC is highly configurable to fit your web site look and feel. You can even
+create your own login screen and set up different color and font size, etc..
+
+The applet is signed with Thawte's Netscape object signing certificate, and
+Microsoft Authenticode certificate, please grant the requested permission
+when the pop up window appear when first load the the applet.
+
+JPilot jIRC is shareware, this download package is for evaluation 
+purpose only.
+
+If you find it useful, and want to continue use it, please regester it at
+http://www.jpilot.com/java/irc/register.html .
+Unregistered applet will receive "Unregistered copy" wordings on the chat
+screen during chat session.
+
+Registration fee is one time charge of $U.S49.99 per web site domain.
+
+
+Package 
+--------
+README		-This file
+chat1.html	-A full configuration example
+chat2.html	-Limited channels/servers selection configuration example
+chat3.html	-NickName config only example
+chat4.html 	-LiveConnect example : Using JavaScript to talk to applet
+chat5.html	-An example of customized login form using HTML and 
+		 JavaScript
+popup.js	-JavaScript for chat5.html
+
+IRClogo.gif	-The image logo to use on the applet. Feel free to replace it
+		 with your own logo. Recommended size around 52 x 58.
+
+
+*.gif		-Sample icon gif files for emotion feature 
+sound_*.au 	-Sample audio files that can be played by the applet
+
+classes/jirc_nss.zip 	The jIRC applet signed for Netscape and other browser
+classes/jirc_mss.cab	The jIRC applet signed for Microsoft IE 4.X or above
+			
+
+
+Installation Instructions of jIRC applet
+-----------------------------------------
+Uncompress the zip file(well, you must have done it already to read this file.) 
+into one directory of your web site.
+Please do not uncompress jrc_nss.zip or jirc_mss.cab
+as it will break the digital signature. 
+
+Simply point your browser to different chat*.html file, and the applet 
+will be loaded. 
+
+Remember that the *.zip and *.cab file must be in the same directory of 
+the "chat*.html".
+
+Note: Some web servers do not recognized the file type *.cab and thus return
+MIME null or text/html to the browser and causing "Class Not Found" error 
+in IE4 and some IE5. 
+A quick fix to this installation problem is to rename the jirc_mss.cab file to 
+jirc_mss.bin and change the name accordingly in the chat*.html. 
+
+
+
+Configuration
+--------------
+You are welcome to customize the parameters inside the html file to fit your
+web contents. 
+This can be done by modifying the <param name="" value=""> tag inside html file.
+
+For latest parameters list and other information, please visit
+
+
+http://www.jpilot.com/java/irc/support.html
+
+
+Changes Log
+---------------
+Current Version 2.8.4
+   * Signed the applet with new certificate
+
+---------
+Version 2.8.3
+   * fixed when in non-multichannel mode not able to display topic data bug
+   * fixed bug in MS version of JVM that still use jdk1.1
+
+----------
+Version 2.8.2
+   * fixed user list not appearing for private and secret channel type
+
+----------
+Version 2.8.1
+   * fixed the kick command result in the user name remain in the user list bug
+
+-----------
+Version 2.8.0 
+
+Added multiple rooms support
+
+    * Users can now join more than one channel at the same time
+    * When executing the /join command, unlike the older version, by default users will not be forced to leave their current channel before joining the new one.
+    * Rooms will appear on the same user list component on the right with a tree structure
+    * RoomMenuList parameter is added to support the right click action of a room
+    * Example: Switch to=/join %$HC,Leave=/part %$HC,Open list=/userlist_open %$HC,Close list=/userlist_close %$HC"
+    * if AllowMultiChannels parameter is set to false, applet will switch back to single channel mode like in the previous version. 
+
+Added HTTP proxy connection support
+
+    * new parameter of "ProxyAddress" is added"
+    * There are currently only two type of proxy supported, namely, the HTTP and SOCKS4
+    * e.g value for http proxy http://myproxy.mycomany.com:8080
+    * e.g value for socks proxy socks://mysocks.mycompany.com:8080
+    * No user name password authentication is supported at this time, and anything other than "http://" or "socks://" will be ignored 
+
+Added image buttons support
+
+    * UseImageButton parameter to enable or disable image buttons
+    * Available image buttons are stored inside resources.zip
+    * Include images: button_config.gif, button_ok.gif, button_connectnow.gif, button_connection_0.gif, button_connection_1.gif, button_cancel.gif, button_close.gif, button_bold_0.gif, button_bold_1.gif
+    * We are currently looking for the best set of button images to use, be sure to let us know if you find one! 
+
+Added right click menu on user list
+
+    * UserMenuList paramter is added use for creating user popup menu
+    * Example : "Send File=/dccsend %$HN,Private Message=/msg %$HN,Ignore=/ignore %$HN,Whois=/whois %$HN,See User Profile=/showprofile %$HN"
+    * Each menu is seperated by "," and each menu is further seperated by "=". Value on the left of the "=" sign is the message appears on the popup menu, value on the right of the "=" is the actual command. 
+
+Added avatar image support
+
+    * A image can be displayed in front of the nickname on the chat screen
+    * AvatarList parameter is used to indicate which user will use avatar image.
+    * Each nickname inside AvatarList is seperated by ","
+    * The avatar image filename is in the format of "user_lowercase_nickname.gif" and must be stored in applet_images/ subdirectory.
+    * All avatar images must be in the same size and they are controlled by AvatarHeight and AvatarWidth parameters.
+    * Currently, nickname jpilot and guest123 is setup to use the avatar. Try to change your nickname to either jpiot or guest123 to see the effect. 
+
+Added copy and paste support
+
+    * Copy(and paste) support is added. There are two ways to do that, depends on the parameter of "CopyMethod".
+    * If CopyMethod parameter is set to "JVM", the text is directly save into user computer's system clipboard. And can be paste into any other application using application's paste command. This feature require user to accept our digitally signed certificate. For those people who use jirc_pure.zip version, this method will not work for them. See next line for solution.
+    * If CopyMethod parameter is set to "JS", the text will be sent to a javascript function called "jirc_copytext" as one of the argument. The javascript function will then print out a simple window with the copied text user selected from chat screen, and user can further copy from that window just like any HTML content. 
+
+Added DCC file transfer support
+
+    * Experimental DCC file transfer is now support, controlled by AllowDCCTransfer paramter.
+    * All received files extension will first added ".rmext" extension; user need to manually remove this extra extension. This is to prevent double clicking untrusted materials accidentally. 
+
+Misc.
+
+    * Added parameter of AllowAddressDisplay to disable or enable the display of user IP address when first joining a channel. 
+
+-----------
+Version 2.7.2
+- fixed issue with new undernet irc servers that always complaint "not in channel" 
+- send NickAuthString command only after successfully login
+- fixed licnese key issue on Mac OS X platform
+- fixed /showurl command not showing up in other applet client bug
+- fixed bug that a very loin URL string is not clickable
+- added parameter for IRC PREFIX support
+  UserPrefixCommand e.g aohv
+  UserPRefixSymbox e.g !@%+
+  The length of these two parameters must be matched.
+- added a new parameter to workaround user list refresh problem when number of users in a channel is more than 100+
+  UserListBufferPageSize
+  If you know your number of users in the channel is 100+ and you are experiencing strange user list refresh problems, set this parameter to a higher value. Default value is 12. 
+
+---------
+
+Version 2.7
+- User listing now support using icons to represent the mode status (set UserModeIcons to true if you want to use it, it is off by default) 
+- fixed animated gif not animated problem 
+- images can now be stored in an additional zip or cab file ( resources.zip or resources.cab) to speed up download time 
+- change cursor to busy when mouse over hyperlink 
+- new license key format for coming new release 
+- There is now a profile button on the private chat window, webmaster can implements its own profile display page if they want to use this feature. 
+- fixed the java.lang.ArrayOutOfBoundsException when using %$HN but not user is selected 
+- parameter to control topic bar disable or not (DisplayTitleBar) 
+- parameter to control chat screen scroll buffer(ScreenBufferPageSize) 
+- parameter to disabe text input field(DisplayTextInput) 
+- parameter to set showurl target window name(URLWindowName) 
+- disabled AllowURL , replace with AllowShowURL, AllowHyperLink 
+- readJOutput($%HN) api return "" when no user is selected in the user list. 
+- Fix the ordering of operators and voice users in the user list 
+- complete remove "About" windows to reduce size 
+- When nickname already taken, change the way of picking new nick name i.e Keep first character, and a random number follow 
+- Fix /quite command somtimes produce exception error. 
+- clear user list when disconnect 
+- remove the extra "/" when requesting logo image, so some web servers will able to serve the content 
+- Fix bug of not able to clik url link after many messages. This is especially true if using smileys that are higher than the text height. 
+- Fix bug of FieldNameOwnChannelLeft parameter from previous preview version. 
+- Fix bug of "bold and long sentence contains smiley will make the icon overlap 
+- New parameters to set the wordings of " has join the channel ", " is now known as", " has left the channel ". 
+- New parameter to control playing the sound file when user leave the channel (AllowLeaveSound). 
+- New parameter to control a timestamp on each user message received(TimeStampFormat, AllowTimeStamp). 
+- New parameter to control the logo border and config border color(LogoBorderColor, ConfigBorderColor). 
+- New parameter to control signoff signautre text 
+- New parameter to control the logo gif file name (LogoGifName). 
+- New public LiveConnect API allow JavaScript to query for the special variables in the applet. jchat.readJOutput(val), where val is the 3 special variables defined in previous version. 
+- Fixed the bug of not breaking a single word to multiple part when the single word is actually longer than the screen width. 
+- Dropped the requirement of all the special variables need to ends with white space. This should prevent users from making mistake when putting their chat html configuration. 
+- Fixed the color code implmentation in the applet that color is now based on two digits code format. One digit color code will contine to work, but may result in unexpected results if your sentance rigth after the color code is also a digit. 
+- Fixed the /me command in the PM window should also go into PM in the other side instead of main channel. 
+
+-----------
+
+Version 2.6.0.1
+- maintenance release, updated certificate
+
+------------
+Version 2.6.0
+-New signing and code changes that Netscpae on Mac can run the applet correctly.
+-Socks Proxy support, properties defined, add gui and code, need SOCKS4 
+ proxy server on your firewall network.
+-play a sound file when people join.(sound_join.au)
+-fix the Alias list and the sepcial variables like $%HN combination bug
+-support channel type with non "#"  
+-fix the bug of color code starts with 01, 02, instead of 1,2
+-support half op (+-h), and rework the mode change handling and display
+-fix the bug of user list not in alphabetical order when new user join, own user always at the bottom
+-add ignore function
+-double click user list to popup private chat window with ignore toggle button
+-hostname canbe set from html properties instead of "localhost" by default.
+ To avoid  "too many connections" message  from some irc networks.
+-fix the problem of /away /notice command that does not add the ":" with 
+the message
+-option to dispaly Connect/Disconnect button
+-putback the OK button ** new Parameter DisplayConfigOK, FieldNameOK
+-Ignore by code number and keyword *** new parameter IgnoreCode ***
+-away message display on applet screen
+-/me private message to user(at private chat) will no longer appear 
+  in the main window
+-fix image loading problem occationaly causing the smileys not working. 
+
+
+------------
+Version 2.5.0
+-Emotion expression in small image icon support
+-Option to hide the "About" button(only for registered user)
+-More precise control of what server message to ignore
+-Alias support
+-Misc. new parameters to control messages color and wordings on config 
+ screen
+-jkey.txt file now support multiple licens key values.
+-%$C, %$N, %$HN variables added. They will be replaced by current
+ channel name value, nick name value, and highlighted name value on
+ user list.
+-fix the bug of not correctly response to user ping request
+-Netscape 6 support  
+-bug fix of cloning problem in previous version
+
+----------
+Version 2.4.0
+-mIRC type color support is added
+-applet can now play audio file
+-You can now change the label or button's text content by using a new 
+ set of parameters
+
+-----------
+Version 2.3.0
+-Nick name list is now sorted.
+-Private chat is now supported! Just double click on the user name.
+
+
+
+Disclaimer
+----------
+JPilot release the software to you on an "as is" basis,
+without warranty of any kind.
+
+You are solely responsible for
+determining the appropriateness of using this Software
+and assume all risks associated with the use of this
+Software, including but not limited to the risks of
+program errors, damage to or loss of data, programs or
+equipment, and unavailability or interruption of
+operations.
+
+JPilot will not be liable for any direct or indirect damges.
+
+
+- JPilot Software
+  www.jpilot.com
+
+

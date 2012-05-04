@@ -1,0 +1,1 @@
+./scripts/build.sh --source "../forces/" --destination ../ --verbose --release 0.4.4

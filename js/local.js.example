@@ -1,0 +1,6 @@
+function myLocalFunction()
+{
+	alert("Hello world!");
+}
+
+addReadyEvent(myLocalFunction);

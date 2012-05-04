@@ -1,0 +1,65 @@
+	<table cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr valign="middle">
+	<td>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12265018-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!-- stat.4u.pl NiE KaSoWaC -->
+<a target=_top href="http://stat.4u.pl/?galaxyforces"><img src="http://adstat.4u.pl/s4u.gif" border="0"></a>
+<script language="javascript">
+<!--
+	function s4upl() { return "&r=er";}
+//-->
+</script>
+<script language="JavaScript" src="http://adstat.4u.pl/s.js?galaxyforces"></script>
+<script language="JavaScript">
+<!--
+	s4uext=s4upl();
+	document.write("<img src=\"http://stat.4u.pl/cgi-bin/s.cgi?i=galaxyforces"+s4uext+"\" width=1 height=1>")
+//-->
+</script>
+<noscript><img src="http://stat.4u.pl/cgi-bin/s.cgi?i=galaxyforces&r=ns" width="1" height="1"></noscript>
+<!-- stat.4u.pl KoNiEc -->
+
+	</td>
+
+	<td>&nbsp;&nbsp;</td>
+
+	<td>
+
+<div id="eXTReMe"><a href="http://extremetracking.com/open?login=zoltarx">
+<img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+<script type="text/javascript"><!--
+var EXlogin='zoltarx' // Login
+var EXvsrv='s11' // VServer
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;EXsrc="src";
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+EXd.write("<img "+EXsrc+"=http://e2.extreme-dm.com",
+"/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+</script><noscript><div id="neXTReMe"><img height="1" width="1" alt=""
+src="http://e2.extreme-dm.com/s11.g?login=zoltarx&amp;j=n&amp;jv=n" />
+</div></noscript></div>
+
+	</td>
+
+	<td>&nbsp;&nbsp;</td>
+
+	<td>
+
+<!--Begin GameSites200 Vote--><p><a href="http://www.gamesites200.com/mpog/in.php?id=4588"><img src="http://www.gamesites200.com/mpog/vote.gif" alt="Vote on the MMORPG / MPOG Top 200" border="0"></a><br><a href="http://www.gamesites200.com/mpog/"><img src="http://www.gamesites200.com/track.gif" alt="MMORPG / MPOG Top 200 - Free and Paid Online Games" border="0"></a></p><!--End Game Sites 200 Code-->
+
+	</td>	
+	</table>

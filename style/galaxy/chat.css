@@ -1,0 +1,190 @@
+/* ### HTML ### */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: luxi sans, tahoma;
+	font-size: 8pt;
+	color: #eeeeee;
+	line-height: 24px;
+	cursor: url("images/cursors/working.ani");
+	background-color: #000000;
+	background-image: url("images/table.jpg");
+}
+
+img {
+	border: 0px;
+	margin: 0px;
+}
+
+acronym {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #88ffcc;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff4cc;
+}
+
+p {
+	text-align: justify;
+}
+
+option, select, input, textarea {
+	font-family: luxi sans, verdana, tahoma, arial;
+	font-size: 7pt;
+	border-top: #555555 solid thin;
+	border-left: #555555 solid thin;
+	border-bottom: #777777 solid thin;
+	border-right: #777777 solid thin;
+	color: #ffffff;
+	background: #333333;
+	border-width: 1px;
+}
+
+option:hover, select:hover, input:hover, textarea:hover {
+	border-top: #666666 solid thin;
+	border-left: #666666 solid thin;
+	border-bottom: #888888 solid thin;
+	border-right: #888888 solid thin;
+	color: #bbccff;
+	background: #111111;
+}
+
+/* ### CLASS ### */
+
+.icon {
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.error {
+	color: #ff6666;
+	text-decoration: blink;
+}
+
+.warning {
+	color: #fff0aa;
+	text-decoration: blink;
+}
+
+.chat {
+	text-align: left;
+	line-height: 16px;
+}
+
+.plus {
+	color: #adffb4;
+}
+
+.minus {
+	color: #ff8bb9;
+}
+
+.ban {
+	color: #ff6699;
+}
+
+.lock {
+	color: #ff6633;
+}
+
+.wheel {
+	color: #ff3300;
+}
+
+.result {
+	color: #ffffbb;
+}
+
+.robot {
+	color: #ffff99;	
+}
+
+.capacity {
+	color: #aaccff;
+}
+
+.jail {
+	color: #844813;
+}
+
+.tax {
+	color: #22e4f8;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.item {
+	color: #eeaaf4;
+}
+
+.item:hover {
+	color: #ffccff;
+	text-decoration: underline;
+}
+
+.jailchief {
+	color: #BA32C9;
+}
+
+.forum {
+	color: #f4f4f4;
+}
+
+.work {
+	text-decoration: none;
+	color: #ffcc99;
+}
+
+.work:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.value {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.unread {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ddffef;
+}
+
+.unread:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.delete {
+	text-decoration: none;
+	color: #ff99cc;
+}
+
+.delete:hover {
+	text-decoration: underline;
+	color: #ffddee;
+}
+
+.small {
+	font-size: 7pt;
+}
+
+.tip {
+	font-style: italic;
+	color: #aac4dd;
+}

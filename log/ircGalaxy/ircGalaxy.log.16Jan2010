@@ -1,0 +1,240 @@
+[00:07] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) left irc: ":< 4 8 15 16 23 42_"
+[00:24] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) joined #galaxy.
+[00:24] <Desmond> Elo dropsy!
+[00:24] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[00:35] heavy_mental (~blabla@Turn.The.Cross.UP.SIDE.DOWN) left irc: ""
+[00:44] <Desmond> A spadam
+[00:45] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) left irc: ":< 4 8 15 16 23 42_"
+[11:54] Desmond (~Miranda@109.243.249.161) joined #galaxy.
+[11:54] <Desmond> Elo dropsy!
+[11:54] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[11:59] Desmond (~Miranda@109.243.249.161) left irc: NickServ (GHOST command used by mgrDesmond)
+[11:59] mgrDesmond (~Miranda@109.243.198.47) joined #galaxy.
+[11:59] <mgrDesmond> Elo dropsy!
+[12:00] Nick change: mgrDesmond -> Desmond
+[12:00] <Desmond> Dupa
+[12:00] <Desmond> Jak pod³¹cze dysk zewnêtrzny to mi wywala modem Playa. Za du¿y pobór pr¹du z koncentratora?
+[12:00] Action: Desmond slaps ex around a bit with a large trout
+[12:00] Action: Desmond slaps lander around a bit with a large trout
+[12:00] zoltraks (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[12:01] <Desmond> O, zoltan!
+[12:01] <zoltraks> sie
+[12:01] <Desmond> eis
+[12:01] <zoltraks> ide puscic render ksiezycow
+[12:01] <zoltraks> wiec pozniej poczytam jesli cos napiszesz
+[12:01] <Desmond> Oo\
+[12:01] <Desmond> Ale wróci?
+[12:02] <zoltraks> wróci jako obrazy PNG 1000x1000 i wtedy wyslemy go do Irfana po miniatury
+[12:02] <Desmond> :P
+[12:02] <Desmond> Spoko
+[12:02] <zoltraks> planety juz sa
+[12:02] <zoltraks> zostaly ksiezyce i gwiazdy
+[12:02] <Desmond> Dobra, ja pod³¹czam dysk zewn, podejrzewam ¿e przez to wywali mi modem playa :P
+[12:02] <Desmond> Hm, generujesz na zapas? Bo galaktyk nie mam chyba wszystkich nawet :>
+[12:02] <zoltraks> tak
+[12:03] <zoltraks> galaktyki sa dwie do odnalezienia raczej
+[12:03] <Desmond> Hehe spoko
+[12:03] <zoltraks> andromeda (duzo dostepnych zdjec z teleskopow) oraz eclipse, ktora raczej ma przypominac droge mleczna
+[12:03] <zoltraks> chociaz z drugiej strony, akurat nie posiadamy teleskopowych zdjec naszej galaktyki, hehehe
+[12:03] <Desmond> A reszta sama
+[12:03] <Desmond> A reszta ta sama
+[12:04] <Desmond> ?
+[12:04] <zoltraks> no chyba nie
+[12:04] <zoltraks> wolfa nie bedzie
+[12:04] <Desmond> Hm, Wolfa nie bêdzie? :(
+[12:04] <zoltraks> onion chyba rowniez poleci jako system
+[12:04] <zoltraks> a ma byc?
+[12:04] <Desmond> Nie wiem
+[12:04] <zoltraks> no, ja bym zmniejszyl ilosc galaktyk, po chu... az tyle
+[12:04] <Desmond> Ja tu tylko zasypuje Ciê pomys³ami
+[12:04] <Desmond> No im wiêcej tym lepiej
+[12:04] <Desmond> Zreszt¹
+[12:04] <zoltraks> tak?
+[12:04] <Desmond> Po 2 galaltyki na rasê by sie przyda³y
+[12:04] <zoltraks> no wlasnie
+[12:05] <zoltraks> to daje 6, a jest w tej chwili 10 rekordow
+[12:05] <zoltraks> acha
+[12:05] <Desmond> 3 rasy + necro, cyber -> 2, razem 10
+[12:05] <zoltraks> sluchaj
+[12:05] <Desmond> Ew po 1 galaktyce i ze 2 galaktyki takie wspólne
+[12:05] <zoltraks> mamy wszystko co jest potrzebne ludziom, dojdzie najwyzej 5 budynkow
+[12:05] <Desmond> Jak to w SSE planowa³em
+[12:05] <zoltraks> ok
+[12:05] <zoltraks> tak mozna zaplanowac, ale to daje ich troche wiecej
+[12:05] <Desmond> Hangary, l¹dowiska, ja chcica³em w SQ daæ centrum komunikacyjne i centrum skanowania (albo jako jeden budynek)
+[12:06] <zoltraks> no, ok
+[12:06] <zoltraks> to teraz sluchaj
+[12:06] <zoltraks> potrzebny jest odpowiedni wpis w Vars i lista dodatkowych pól (identyfikatorow budynkow)
+[12:06] <zoltraks> i parametry, rzecz jasna
+[12:06] <Desmond> I ja mam to zrobiæ? :D
+[12:06] <zoltraks> hmm... a ja?
+[12:06] <zoltraks> heheh
+[12:07] <Desmond> No jest rolnik, lander, patrz ile osó w wiki jest zarejestrowanych
+[12:07] <zoltraks> ja sie musze tu z twoim chat.php ogarnac, to ty wez ogarnij troche moj galaxy/config.php :-P
+[12:07] <zoltraks> lander ma co robic
+[12:07] <Desmond> A co robi?
+[12:07] <zoltraks> a co do wiki - ja nie widze tam specjalnie aktywnosci
+[12:07] <zoltraks> zajmuje sie serwerem galaxy, jak zawsze
+[12:07] <Desmond> Jak rozumiem jednak stary plan w bazie zostaje (jednostka - pole,budynek - pole)
+[12:07] <Desmond> Hm, czyli nicn ie robi :D
+[12:08] <Desmond> I czituje w grze :>
+[12:08] <zoltraks> na razie tak
+[12:08] <zoltraks> potem wyrzucimy te pola
+[12:08] <zoltraks> zreszta, martwisz sie o MB? :P
+[12:09] <Desmond> Nie, ale jak chcesz dodac now¹ jednostkêto to jest upierdliwe
+[12:09] <zoltraks> no, wiem
+[12:09] <Desmond> W raportach s¹ po 3 pola na jednostkê
+[12:09] <zoltraks> ja nie mam tabeli raportow
+[12:09] <zoltraks> tzn. w SQ jest
+[12:09] <zoltraks> ale to nie moja wina
+[12:09] <Desmond> Ale nie idzieo  to
+[12:09] <Desmond> Sorka, Ÿle
+[12:09] <Desmond> W atakach
+[12:09] <zoltraks> acha
+[12:10] <zoltraks> no tak
+[12:10] <Desmond> Masz po 3 pola na jednostkê
+[12:10] <zoltraks> ale nie martw sie
+[12:10] <zoltraks> zamienie je
+[12:10] <Desmond> Jest 20 jednostek pewnie na rasê, 3 razy - 60, 5 ras - 100
+[12:10] <zoltraks> i bedziesz mial tylko te koncowki w MEDIUMTEXT
+[12:10] <zoltraks> no tak
+[12:10] <zoltraks> z drugiej strony, pamietaj, ze to tylko INT'y
+[12:10] <zoltraks> a MEDIUMTEXT to juz BLOB
+[12:10] <Desmond> :\
+[12:10] <Desmond> Ale ³atwiej jest
+[12:10] <zoltraks> dla kogo?
+[12:10] <zoltraks> hehehe, maszynie to chyba i tak wisi
+[12:10] <Desmond> Dla tych co bêd¹ œci¹gaæ potem ten kod z neta (bo chcesz go udostêpniæ)
+[12:11] <zoltraks> no tak
+[12:11] <zoltraks> ale widzisz
+[12:11] <zoltraks> nie zalezy mi specjalnie na tym, by ktos na tym, poczatkowym w zasadzie (wciaz wersja 0.5) etapie sobie sciagal ten kod
+[12:11] <Desmond> Zreszt¹, jak tam chcesz. W SQ dodawa³eœ config i na tym sie koñczy³o, ew t³umaczenie (bo gra mia³¹ dziwny zwyczaj ¿e jak coœ by³o w configu ale nie by³o w t³yumaczeniu to nie chcia³o dzia³aæ)
+[12:11] <zoltraks> no tak
+[12:11] <zoltraks> widzisz
+[12:12] <zoltraks> ja po prostu planuje
+[12:12] <Desmond> No spoko
+[12:12] <zoltraks> nie da sie tak od razu wszystkiego zrobic
+[12:12] <Desmond> No nie da, ale jak dla mnie to s¹ podstawy - tak jak Ci wspomina³em. Praca u podstaw najpierw :>
+[12:12] <zoltraks> oprocz grafiki, ktora zawsze byla minusem gry, a trzeba rozwijac tez sam system gry oraz struktury programu i danych na ktorych pracuje
+[12:12] <Desmond> To co ja tam sobie chrzaniê o atakach, o konsulach planetarnych to jest na póŸniej
+[12:13] <zoltraks> hehe, dobrze
+[12:13] <Desmond> No w³aœnie zapis jednostek w bazie to jest struktura
+[12:13] <zoltraks> ok, ale nie teraz
+[12:13] <Desmond> Spoko
+[12:13] <zoltraks> widzisz, jak chcesz
+[12:13] <zoltraks> moge pisac wszystko do 2 tabeli - identyfikator zmiennej + sesji + zserializowana zawartosc
+[12:14] <Desmond> :)
+[12:14] <Desmond> A swoj¹ drog¹, czemu go Galaxy Forces w logu jest takie ma³e?
+[12:14] <zoltraks> a poki co musze pozostac przy tym kodzie, ktory jest, nie modyfikujac od razu wszystkich tabel (zreszta, chce kiedys przeniesc tabele z legends do gf)
+[12:14] <Desmond> Na Alyxie, malizn¹ pachnie
+[12:15] <Desmond> Spoko
+[12:15] <zoltraks> co w logu?
+[12:15] <Desmond> No logo Galaxy Forces któe da³es w tym nowym layoucie
+[12:15] <zoltraks> acha ;P
+[12:15] <Desmond> Takie tyci tyci jest
+[12:15] <zoltraks> hehehe
+[12:15] <zoltraks> sluchaj
+[12:15] <Desmond> A¿ trzeba pilnowac by sie nie schowa³o
+[12:15] <Desmond> Ze strzachu, ¿e takie ma³e
+[12:15] <zoltraks> haha
+[12:16] <Desmond> No patrz jak na gf.pl maj¹ logo, normalnie zawstydzi³o logo zoltara
+[12:16] <zoltraks> http://galaxy.game-host.org/link/media/2010-01-11/logo-classic-2.jpg
+[12:16] <zoltraks> smacznego ;-P
+[12:16] <Desmond> HM, sk¹d wiedzia³eœ ¿e ide robiæ sniadanie?
+[12:17] <zoltraks> chcesz, to dam je na pó³ szeroko¶ci
+[12:17] <zoltraks> tylko
+[12:17] <zoltraks> ja chce tam mieæ to: http://safalra.com/web-design/javascript/mac-style-dock/
+[12:17] <Desmond> Jakby 2x wiêksze by³o to by by³o ok, ja wiem ze tam t³o jest ale ten napis w stosunku do reszty jest za ma³y
+[12:18] <zoltraks> dobra, mogê zmieniæ... ale to nie jest takie wa¿ne
+[12:18] <zoltraks> ono mia³o maksymalnie przypominaæ stare
+[12:18] <Desmond> No tak, ale stare by³o wiêksze :D
+[12:18] <zoltraks> e tam
+[12:18] <zoltraks> hehe, ma³e jest piêkne...
+[12:19] <Desmond> Oo\
+[12:19] <Desmond> Dopra
+[12:19] <zoltraks> dobra, pozniej pomysle z tym logo, w 0.5.3 wyprobujemy
+[12:19] <Desmond> Dobra znaczy sie
+[12:19] <Desmond> TO co ja mam zrobiæ z tymi budynkami?
+[12:19] <zoltraks> a, jest nowa funkcja w javascript - addReadyEvent
+[12:19] <Desmond> Ja sie na JS nie znam, jestem noga
+[12:19] <zoltraks> mozesz tam dodawac swoje funkcje do uruchomienia
+[12:19] <zoltraks> acha, ok
+[12:19] <Desmond> Mniej wiem ni¿ z 15 stron "Unix dla opornych"
+[12:20] <zoltraks> a widzisz
+[12:20] <zoltraks> pamietasz gf2?
+[12:20] <Desmond> Tak
+[12:20] <zoltraks> http://www.extjs.com/products/extjs/?ref=screenshot
+[12:20] <Desmond> Ale on to robi³ na frameworku i jak s¹dzê "uk³ada³ klocki"
+[12:20] <zoltraks> gorzej
+[12:20] <Desmond> No wiem, Ext JS to by³
+[12:20] <zoltraks> zobacz na przyklady
+[12:20] <zoltraks> nawet temat graficzny ten sam
+[12:20] <Desmond> Widzia³em te przyk³ady, fajne s¹
+[12:20] <zoltraks> http://www.extjs.com/deploy/dev/examples/tasks/tasks.html
+[12:21] <Desmond> Ale widzisz - raz zer¿nie, potem zmieni coœ, potem poczyta. I bêdzie sie uczy³
+[12:21] <zoltraks> no i dobrze
+[12:21] <Desmond> Tzn nie bêdzie sie uczy³ bo zarzuci³ projekt
+[12:21] <Desmond> E, ten link co mi da³eœ to wywali³ mnie do Gugle Gears ...
+[12:21] <zoltraks> no i widzisz
+[12:21] <zoltraks> ja nie chce zamienic np. panelu produkcji na extjs
+[12:22] <zoltraks> ale mozna dodac i zobaczyc jak to chodzi i dac jako alternatywny panel
+[12:22] <zoltraks> ale to raczej gdzies kolo 0.5.4/0.5.5 ;P
+[12:22] <zoltraks> ide, bo rendery czekaja
+[12:22] <Desmond> Có¿, kwestia tego ¿e ja mam taki magiczny przycisk na dole w Operze "W³¹cz obs³uge JS"
+[12:22] <Desmond> I jak mnie cos wkurwi (reklamy) to odznaczam go
+[12:23] <Desmond> Dobra, ja podpinam dysk
+[12:23] <Desmond> Zaraz mnie prawdopodobnie wyjebie
+[12:25] Desmond (~Miranda@109.243.198.47) left irc: Connection reset by peer
+[12:26] Desmond (~Miranda@109.243.202.115) joined #galaxy.
+[12:26] <Desmond> Elo dropsy!
+[12:26] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[12:26] <Desmond> No kurwa
+[12:26] <Desmond> Podpia³me dysk
+[12:26] <zoltraks> hehehehe
+[12:26] <Desmond> Wyjeba³o mnie,
+[12:26] <zoltraks> przeciez napisales, ze prawdopodobnie tak bedzie
+[12:26] <Desmond> I dalej od nwa koncentrator USB zainstalowa³o, przeinstalowa³o modem a dysku kurwa nie zamontowa³
+[12:28] <Desmond> Hm, diody sie nie œwiec¹ w dysku :\
+[12:28] zoltraks (~zoltraks@chello089078211117.chello.pl) left irc: Connection reset by peer
+[12:28] <Desmond> O
+[12:28] zoltraks_ (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[12:28] Nick change: zoltraks_ -> zoltraks
+[12:29] zoltraks_ (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[12:29] <zoltraks_> zeby nie bylo ci smutno, rowniez sie wyjebalem
+[12:32] zoltraks (~zoltraks@chello089078211117.chello.pl) left irc: Ping timeout: 121 seconds
+[12:32] Desmond (~Miranda@109.243.202.115) left irc: Ping timeout: 121 seconds
+[12:32] Nick change: zoltraks_ -> zoltraks
+[12:36] Desmond (~Miranda@94.254.199.7) joined #galaxy.
+[12:36] <Desmond> Elo dropsy!
+[12:36] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[12:36] <Desmond> lul
+[12:38] <ex> elo
+[12:38] <zoltraks> siema, pomoz desmondowi
+[12:38] <zoltraks> wyjeb sie sam z netu
+[12:39] <zoltraks> 5 minut na 1 ksiezyc, a myslalem ze nie taki najgorszy cpu w kompie siedzi
+[12:39] <zoltraks> 4k MIPS to chyba jednak ma³o
+[12:40] <ex> eee... Ziemia robiona byla 7 dni... wiec te 5 min nie jest takie zle ;P 
+[12:42] Desmond (~Miranda@94.254.199.7) left irc: Ping timeout: 121 seconds
+[13:21] Desmond (~Miranda@94.254.243.183) joined #galaxy.
+[13:21] <Desmond> Elo dropsy!
+[13:21] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[14:14] heavy_mental (~blabla@Turn.The.Cross.UP.SIDE.DOWN) joined #galaxy.
+[14:14] #galaxy: mode change '+qo heavy_mental heavy_mental' by ChanServ!service@services.ircnet.pl
+[14:14] <heavy_mental> hi
+[14:20] Desmond (~Miranda@94.254.243.183) left irc: NickServ (GHOST command used by mgrDesmond)
+[14:20] mgrDesmond (~Miranda@aatg20.neoplus.adsl.tpnet.pl) joined #galaxy.
+[14:20] <mgrDesmond> Elo dropsy!
+[14:20] Nick change: mgrDesmond -> Desmond
+[14:57] <heavy_mental> heavy_mental: level up (+10)...
+[14:57] <heavy_mental> :]
+[14:59] <Desmond> ;\
+[14:59] <Desmond> Szpaner
+[15:00] <heavy_mental> :/
+[15:02] <heavy_mental> Jesteœ zwyciêzc¹!
+[15:02] <heavy_mental> Zdobyte doœwiadczenie: 52 428 144
+[15:02] <heavy_mental> ha!
+[15:04] <Desmond> =]
+[15:04] <Desmond> Niech Ci Bozia w dzieciach wynagrodzi
+[15:50] Desmond (~Miranda@aatg20.neoplus.adsl.tpnet.pl) left irc: Ping timeout: 121 seconds
+[16:01] <zoltraks> no, wlasnie
+[16:12] <heavy_mental> http://www.youtube.com/watch?v=GR9MpJy0E6g&feature=player_embedded

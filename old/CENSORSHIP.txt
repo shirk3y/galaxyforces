@@ -1,0 +1,33 @@
+; List of banned words specified in two lines each - string and replacement
+; If second line is empty, this word will be censored
+;
+; ## oczyszczony stary plik ## by l- ;) 
+
+huj
+
+kutas
+
+kurwa
+
+spierdalaj
+
+wypierdalaj
+
+jeban
+
+cipa
+
+pizda
+
+skurw
+
+spieprzaj
+
+fuck
+
+dick
+
+ciota
+
+cioto
+

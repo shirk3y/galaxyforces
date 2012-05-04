@@ -1,0 +1,92 @@
+#
+#         This java file is a part of the
+#
+#          -  Plouf's Java IRC Client  -
+#
+#      Copyright (C) 2004 Philippe Detournay
+#
+#   This file is licensed under the GPL license
+#
+#        All contacts : theplouf@yahoo.com
+#
+#
+#  Syntax :
+#    Comments begin with the # character. This character must be the first character of the line.
+#    A data line has three parts : the data id, the data id description, the data string.
+#      - Data id : An hexadecimal figure identifying the string.
+#      - Data description : Begins by [ and ends by ]. The description is not parsed and
+#                           can be any string.
+#      - Data string : The string itself. Parameters are specified using the %i syntax.
+#
+#  Trailing spaces can be added using the \s escape character.
+
+0001 [INTERPRETOR_NOT_ON_CHANNEL] Nie jesteœ na kanale
+0002 [INTERPRETOR_UNKNOWN_DCC] %1 : nieznana subkomenda dcc 
+0003 [INTERPRETOR_INSUFFICIENT_PARAMETERS] %1 : za ma³o parametrów
+0004 [INTERPRETOR_BAD_CONTEXT] %1 : unable to perform in current context
+0005 [INTERPRETOR_CANNOT_CTCP_IN_DCCCHAT] Cannot send CTCP codes via DCC Chat
+0006 [INTERPRETOR_UNKNOWN_CONFIG] %1 : nieznana komenda konfiguracji
+0007 [INTERPRETOR_TIMESTAMP_ON] Timestamp enabled
+0008 [INTERPRETOR_TIMESTAMP_OFF] Timestamp disabled
+0009 [INTERPRETOR_SMILEYS_ON] Graphical smileys enabled
+000a [INTERPRETOR_SMILEYS_OFF] Graphical smileys disabled
+000b [INTERPRETOR_IGNORE_ON] Ingorujesz teraz %1
+000c [INTERPRETOR_IGNORE_OFF] Przestaleœ ignorowaæ %1
+000d [INTERPRETOR_MULTISERVER_DISABLED] Obs³uga multiserwerów jest wy³¹czona
+  
+0101 [DCC_WAITING_INCOMING] Oczekiwanie na nadchodz¹ce po³¹czenie...
+0102 [DCC_UNABLE_TO_OPEN_CONNECTION] Nie mo¿na otworzyæ po³¹czenia : %1
+0103 [DCC_CONNECTION_ESTABLISHED] DCC po³¹czenie otwarte
+0104 [DCC_CONNECTION_CLOSED] Po³¹czenie zamkniête
+0105 [DCC_ERROR] B³¹d : %1
+0106 [DCC_UNABLE_TO_SEND_TO] %1 : nie mozna wys³aæ do %2
+0107 [DCC_BAD_CONTEXT] Unable to execute command from current context
+0108 [DCC_NOT_CONNECTED] Nie po³¹czony
+0109 [DCC_UNABLE_PASSIVE_MODE] Unable to initialize passive mode
+010a [CTCP_PING_REPLY] [%1 PING reply] : %2 sekund
+010b [DCC_STREAM_CLOSED] Stream closed
+      
+0201 [IDENT_FAILED_LAUNCH] Failed to launch Ident server : %1
+0202 [IDENT_REQUEST] Ident request from %1
+0203 [IDENT_ERROR] Wyst¹pi³ b³¹d
+0204 [IDENT_REPLIED] Replied %1
+0205 [IDENT_DEFAULT_USER] default user
+0206 [IDENT_NO_USER] No user for request
+0207 [IDENT_RUNNING_ON_PORT] Ident server running on port %1
+0208 [IDENT_LEAVING] Ident server leaving : %1
+0209 [IDENT_NONE] brak
+020a [IDENT_UNKNOWN] nieznane
+020b [IDENT_UNDEFINED] Undefined result
+      
+0301 [FILE_SAVEAS] Zapisz plik jako
+      
+0401 [ABOUT_ABOUT] Autorzy
+0402 [ABOUT_PROGRAMMING] Programowanie
+0403 [ABOUT_DESIGN] Wygl¹d
+0404 [ABOUT_THANKS] Podziêkowania dla
+0405 [ABOUT_SUPPORT] z support, pomys³y i testowanie
+0406 [ABOUT_GPL] This software is licensed under the GPL license
+      
+0501 [SERVER_UNABLE_TO_CONNECT] Nie mo¿na sie po³¹czyæ : %1
+0502 [SERVER_UNABLE_TO_CONNECT_STILL] Nie mo¿na sie po³¹czyæ %1 : obecnie próbujê sie po³¹czyæ z %2
+0503 [SERVER_DISCONNECTING] Roz³¹czanie z%1
+0504 [SERVER_CONNECTING] £¹czenie ...
+0505 [SERVER_NOT_CONNECTED] Nie po³¹czony
+0506 [SERVER_LOGIN] Logowanie ...
+0507 [SERVER_DISCONNECTED] Roz³¹czony z %1
+0508 [SERVER_ERROR] B³¹d : %1
+     
+      
+071a [GUI_CHANGE_NICK] Zmieñ nick na
+071b [GUI_COPY_WINDOW] Skopiuj text
+071c [GUI_DCC_CHAT_WARNING_TITLE] Uwaga
+071d [GUI_DCC_CHAT_WARNING_TEXT] Do you want to accept DCC chat from %1?
+
+0801 [ASL_MALE] Boy, %1 years old, %2
+0802 [ASL_FEMALE] Girl, %1 years old, %2
+0803 [ASL_UNKNOWN] %1 years old from %2
+
+0901 [REPLY_IDLE] %1 has been idle for %2
+0902 [REPLY_SIGNON] %1 connected on %2
+
+ffff [ERROR_NOT_DEFINED] Undefined string

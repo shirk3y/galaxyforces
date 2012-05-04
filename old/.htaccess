@@ -1,0 +1,5 @@
+
+	php_flag	display_errors       	On
+	php_value	output_buffering		32768
+	php_flag	zlib.output_compression	On
+	php_flag	short_open_tag			On

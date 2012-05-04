@@ -1,0 +1,80 @@
+Thank you for your interest of jIRC applet version 2.7.0.
+
+We have made some important changes over the previous version, the following 
+information will help you getting start with this new version.
+
+License Key
+-----------
+The license key format has been changed in version 2.7.0
+If you have a registered user of the previous vesion, you can easily 
+upgrade your key from this URL:
+http://www.jpilot.com/products/jirc/upgradekey.html
+
+Simply enter your original license key value, and you should see the new 
+license key value after submission.
+
+It is also important to put "MAYSCRIPT" attribute in the HTML applet tag,
+otherwise the applet will return unregister.
+For example, 
+<applet code="Chat.class"  ...... MAYSCRIPT >
+                                  ^^^^^^^^^
+
+Resources file
+--------------
+In order to reduce image files download time, version 2.7.0   
+now support additional resource zip/cab file.
+This is especailly true if you want to use image icons for user listing.
+To do that, simply include the zip file in the appelt tag, seperated by ",".
+For example, 
+<applet code="Chat.class" arhive="jirc_nss.zip,resource.zip" ...  MAYSCRIPT>
+.
+.
+<param name="CODEBASE" value="jirc_mss.cab,resource.cab" >
+.
+.
+</applet>
+
+In our download package, we include one resource.zip/cab file that only
+contains user icons that appears on the user listing screen.
+
+The applet will first load the images from the zip/cab file if they are presented, 
+if the appelt cannot find the files from there, it will go back to the website
+and load the image files from there.
+
+In addition, image file starts with icon_* will have higer priority to
+be loaded first.
+
+If you put every image into resource file, it will slow down the 
+applet initial download time. Therefore, we recommend you to only include the
+images that you need at startup time in the resource file( e.g user icons). 
+Other images will be loaded from the website behind the scene (which is okay 
+because normally you won't need those images right away).
+
+We also suggest you to leave the *.gif files in your web site even if you already 
+put them in resource.zip/cab file. 
+This is to help some browsers which does not support
+multiple zip attribute in applet tag, like Mac OS X IE5.
+
+
+Image and audio directory
+--------------------------
+In previous version, all image and audio files are located at the same directory
+as the applet jirc_nss.zip/jirc_mss.cab file. To help you better organize 
+your web site directories, starting from this vesion, 
+all image files must be located in a sub-directory
+called "applet_images" relative to the applet file. Similary, all audio *.au
+files must be located in a sub-directory called "applet_audio" relative
+to the applet file.
+
+Our download package has also been updated to reflect these changes.
+
+
+Animated gifs
+-------------
+Starting version 2.7.0, applet also support animation gif as smileys.
+We suggest you not to use animation with high refresh rate, as each refresh
+will cause the screen to repaint and may impact users who have old and less
+powerful PC.
+
+
+

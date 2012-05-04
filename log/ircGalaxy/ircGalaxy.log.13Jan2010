@@ -1,0 +1,87 @@
+[00:10] Desmond (~Miranda@aatk151.neoplus.adsl.tpnet.pl) left irc: Ping timeout: 121 seconds
+[00:26] zoltraks (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[00:26] <zoltraks> desmond by³?
+[00:27] <heavy_mental> [23:14:14] * Quits: @Desmond (~Miranda@aatk151.neoplus.adsl.tpnet.pl) (Ping timeout: 121 seconds)
+[00:27] <heavy_mental> nie tak dawno temu
+[00:49] <zoltraks> ocho
+[00:50] <zoltraks> ok
+[01:04] heavy_mental (~blabla@Turn.The.Cross.UP.SIDE.DOWN) left irc: ""
+[01:22] <zoltraks> dobra, pogadam do siebie, od suriva nie dosta³em mejla, pewnie siê nie odezwie
+[01:22] <zoltraks> w ka¿dym razie, ¿eby siê tak nie podniecaæ za bardzo
+[01:22] <zoltraks> http://www.extjs.com/deploy/dev/examples/window/hello.html
+[01:22] <zoltraks> zobaczymy, czy da siê to dokoptowaæ do obecnego renderu strony
+[04:18] exitek (~extended@81.219.93.99) left irc: ""
+[04:57] zoltraks (~zoltraks@chello089078211117.chello.pl) got netsplit.
+[04:57] lander (lander@89.149.243.205) got netsplit.
+[05:02] lander (~extended@host36.mydevil.net) joined #galaxy.
+[05:02] zoltraks (~zoltraks@chello089078211117.chello.pl) returned to #galaxy.
+[05:05] zoltraks (~zoltraks@chello089078211117.chello.pl) got netsplit.
+[05:05] lander (~extended@host36.mydevil.net) got netsplit.
+[05:06] zoltraks_ (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[05:06] Nick change: zoltraks_ -> zoltraks
+[05:06] Possible future nick collision: zoltraks
+[05:06] lander (lander@host36.mydevil.net) joined #galaxy.
+[05:08] <zoltraks> nie
+[06:00] ex (~extended@81.219.93.99) joined #galaxy.
+[06:18] <ex> oO... 
+[06:18] <ex> wyglada ciekawie
+[06:21] <zoltraks> no
+[06:22] <zoltraks> zobaczymy, na razie poprawi³em obs³ugê js w include/header.php, ale nie na serwie
+[06:23] <zoltraks> ide w kime, na 8 do roboty trzeba, a jeszcze wypadaloby jakis sen zaliczyc ;P
+[06:26] <ex> no ok... dobranoc 
+[06:26] <ex> ja lece do pracy
+[06:27] zoltraks (~zoltraks@chello089078211117.chello.pl) left irc: Ping timeout: 121 seconds
+[09:42] Desmond (~Miranda@aarz133.neoplus.adsl.tpnet.pl) joined #galaxy.
+[09:42] <Desmond> Elo dropsy!
+[09:42] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[10:15] zoltraks (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[10:22] zoltraks (~zoltraks@chello089078211117.chello.pl) left irc: Ping timeout: 121 seconds
+[10:31] Desmond (~Miranda@aarz133.neoplus.adsl.tpnet.pl) left irc: ":< 4 8 15 16 23 42_"
+[10:51] Aydamusek (~Aydamusek@113-141.echostar.pl) joined #galaxy.
+[10:52] <Aydamusek> :)
+[10:52] <Aydamusek> cos jest nie tak z GF
+[10:52] <Aydamusek> nie daje sie zalogowac
+[10:52] <Aydamusek> przekracza czas wykonania skryptu
+[10:59] Aydamusek (~Aydamusek@113-141.echostar.pl) left irc: EOF from client
+[11:24] zoltraks (~zoltraks@ur196.internetdsl.tpnet.pl) joined #galaxy.
+[12:54] zoltraks (~zoltraks@ur196.internetdsl.tpnet.pl) left irc: Connection reset by peer
+[16:50] heavy_mental (~blabla@ejs10.internetdsl.tpnet.pl) joined #galaxy.
+[16:50] #galaxy: mode change '+qo heavy_mental heavy_mental' by ChanServ!service@services.ircnet.pl
+[16:50] <heavy_mental> hi
+[17:19] <ex> eh, babcia mi zmar³a 
+[17:19] <ex> damn 
+[17:20] <heavy_mental> mi ciotka, dwoch sasiadow, i jeszcze jakis gosc co go nie znam
+[17:20] <heavy_mental> :P
+[17:20] <ex> nie licytuj sie 
+[17:20] Action: ex slaps heavy_mental around a bit with a large trout
+[17:20] <heavy_mental> nie licytuje
+[17:21] <heavy_mental> ...ale i tak bym wygral :/
+[17:21] <ex> nie lubie jak mi ktos umiera ... eh 
+[17:22] <heavy_mental> ciezko to lubic
+[17:22] <ex> nom
+[20:41] Desmond (~Miranda@aasd22.neoplus.adsl.tpnet.pl) joined #galaxy.
+[20:41] <Desmond> Elo dropsy!
+[20:41] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[20:52] exitek (~extended@87-205-185-38.adsl.inetia.pl) joined #galaxy.
+[20:56] ex (~extended@81.219.93.99) left irc: Ping timeout: 121 seconds
+[22:26] Desmond (~Miranda@aasd22.neoplus.adsl.tpnet.pl) left irc: Ping timeout: 121 seconds
+[22:38] Desmond (~Miranda@aasd22.neoplus.adsl.tpnet.pl) joined #galaxy.
+[22:38] <Desmond> Elo dropsy!
+[22:38] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[23:00] <Desmond> No dzisiaj to tu wyj¹tkowa cisza jest
+[23:00] <Desmond> Rolnik tylko uprawy na GF prowadzi ...
+[23:11] <heavy_mental> zolt cie wczoraj szukal
+[23:11] <heavy_mental> [23:30:10] * Joins: zoltraks (~zoltraks@chello089078211117.chello.pl)
+[23:11] <heavy_mental> [23:30:20] <zoltraks> desmond by³?
+[23:11] <heavy_mental> [23:30:30] <~heavy_mental> [23:14:14] * Quits: @Desmond (~Miranda@aatk151.neoplus.adsl.tpnet.pl) (Ping timeout: 121 seconds)
+[23:11] <heavy_mental> [23:30:34] <~heavy_mental> nie tak dawno temu
+[23:11] <heavy_mental> [23:53:25] <zoltraks> ocho
+[23:11] <heavy_mental> [23:53:28] <zoltraks> ok
+[23:12] <Desmond> Hm
+[23:12] <Desmond> Ciekawe czego odemnie móg³ chcieæ ... w zasadzie to mam przecie¿ GG :P
+[23:12] <heavy_mental> ;]
+[23:13] <Desmond> Pewnie nic wa¿nego
+[23:33] <heavy_mental> kurde
+[23:34] <heavy_mental> gram w cribbage
+[23:34] <heavy_mental> i ni cholery nie zrozumiem jak te punkty sie liczy ;/
+[00:00] --- Thu Jan 14 2010

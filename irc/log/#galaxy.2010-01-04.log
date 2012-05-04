@@ -1,0 +1,320 @@
+[2010-01-04 00:00:10] <zoltraks> lander jak sie obudzi to sie obrazi, wiec moze by go zapytac o zdanie, bo wydaje mi sie, ze to on nie chcial na razie - bo przeciez nie zaczelismy jeszcze z giera na serio
+[2010-01-04 00:00:32] <heavy_mental> 4Gazeta Szwecja nie dostaĹ�a naszej proĹ�by ws. Auschwitz. A powinna - 12http://wiadomosci.gazeta.pl/Wiadomosci/1,80277,7416185,Szwecja__Policja_jeszcze_nie_otrzymala_prosby_Polski.html?skad=rss 4Gazeta
+[2010-01-04 00:00:34] <zoltraks> czym sie rozni ads i ads2
+[2010-01-04 00:00:35] <Desmond> No ja też jako� slabo "ZA" jestem, bo po co. Puste stać ma?
+[2010-01-04 00:00:41] <zoltraks> no, wlasnie
+[2010-01-04 00:00:42] <Desmond> Pff, w SQ?
+[2010-01-04 00:00:45] <zoltraks> no
+[2010-01-04 00:01:26] <zoltraks> hehe: // zgodnie z GPL GNU nalezy podac autora modyfikcji
+[2010-01-04 00:01:30] <Desmond> ads2 jest chyba szarkowe
+[2010-01-04 00:01:32] <zoltraks> a potem w wersji 1.2 jest wyjebane
+[2010-01-04 00:01:33] <zoltraks> ;)
+[2010-01-04 00:01:48] <zoltraks> no, tak
+[2010-01-04 00:02:10] <zoltraks> to ktore brac?
+[2010-01-04 00:02:11] <zoltraks> ads.php?
+[2010-01-04 00:02:16] <Desmond> Moment
+[2010-01-04 00:02:18] <zoltraks> tam u sharka jest inna edycja
+[2010-01-04 00:02:41] <Desmond> ads.php
+[2010-01-04 00:03:01] <Desmond> ads2 to jako kopie oryginału zostawiłem
+[2010-01-04 00:03:40] <zoltraks> sluchaj, mysle sobie
+[2010-01-04 00:04:13] <zoltraks> moze to nazwac Galaxy Forces Stellar Quest (chcialbym na razie zostawic nazwe Galaxy Forces ze wzgledu na to, ze jest to powiazane z oryginalnym, dawnym projektem)
+[2010-01-04 00:04:22] <zoltraks> zastanow sie, mi nazwa SQ sie podoba
+[2010-01-04 00:04:47] <Desmond> Spoko, ja tam problemu nie widzę akurat :)
+[2010-01-04 00:05:02] <zoltraks> byloby fajnie
+[2010-01-04 00:05:12] <Desmond> Tylko nie wiem czy np reszta sie nie obrazi, że gra sie nie nazywa Galaxy Forces New Age of Borg
+[2010-01-04 00:05:55] <Desmond> O! Galaxy Forces Legends of New Age of Borg
+[2010-01-04 00:06:21] <zoltraks> haha
+[2010-01-04 00:06:47] <zoltraks> czemu nie... dopoki nazwa miesci sie w SMS
+[2010-01-04 00:06:48] <zoltraks> ;P
+[2010-01-04 00:07:02] <heavy_mental> 4DEMOT NiektĂłre demoty sa jak Ĺźarty Strasburgera. - 12http://www.demotywatory.pl/6 d8e 73379?utm_source=Czytnik_rss&utm_medium=link&utm_campaign=rss 4DEMOT
+[2010-01-04 00:07:08] <Desmond> Wiesz, swojego czasu ja pamiętam było co� na kształt wojen edycyjnych. Z NA nie lubili SSE, z SSE NA, i jeszcz Borg. W wikipedii jakie� walki były ...
+[2010-01-04 00:07:37] <zoltraks> heheheh
+[2010-01-04 00:07:42] <zoltraks> bez sensu, ale co zrobisz
+[2010-01-04 00:07:47] <zoltraks> taka to ludzka natura
+[2010-01-04 00:07:50] <Desmond> Aż w końcu hasło usunęli, bo każdy wstawiał tam swoje info o własnej grze
+[2010-01-04 00:07:52] <Desmond> No :)
+[2010-01-04 00:09:27] <heavy_mental> papa
+[2010-01-04 00:09:28] |<-- heavy_mental has left poznan.ircnet.pl ("")
+[2010-01-04 00:10:00] <Desmond> Paaa ...
+[2010-01-04 00:11:18] <Desmond> Swojš drogš był taki film Galaxy Quest, komedia, fabułš było że kręcili tam film sf i szedł on satelitš. Naoglšdali sie go kosmici i zbudowali wszystko co było w tym filmie, po czym porwali kapitana z serialu bo my�leli że jest on prawdziwy. A ten wtedy wracał z imprezy i był cholerne skacowany ...
+[2010-01-04 00:11:44] <zoltraks> CREATE TABLE `galaxy_ads` (
+[2010-01-04 00:11:44] <zoltraks>   `id` int(11) NOT NULL auto_increment,
+[2010-01-04 00:11:44] <zoltraks>   `time` int(11) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `expires` int(11) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `status` int(6) NOT NULL default '0',
+[2010-01-04 00:11:44] <zoltraks>   `lang` varchar(6) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `class` varchar(16) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `type` varchar(12) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `notify` int(11) NOT NULL default '0',
+[2010-01-04 00:11:44] <zoltraks>   `replies` varchar(12) NOT NULL default '0',
+[2010-01-04 00:11:44] <zoltraks>   `author` varchar(64) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `title` varchar(35) NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>   `content` text NOT NULL,
+[2010-01-04 00:11:44] <zoltraks>    PRIMARY KEY (`id`)
+[2010-01-04 00:11:44] <zoltraks> );
+[2010-01-04 00:11:59] =-= YOU (zoltraks) have been booted from #galaxy by dziewica (Przestań floodować!)
+[2010-01-04 00:12:00] === #galaxy Cannot send to channel (no external messages)
+[2010-01-04 00:12:02] === #galaxy Cannot send to channel (no external messages)
+[2010-01-04 00:12:03] === #galaxy Cannot send to channel (no external messages)
+[2010-01-04 00:12:05] === #galaxy Cannot send to channel (no external messages)
+[2010-01-04 00:12:07] === #galaxy Cannot send to channel (no external messages)
+[2010-01-04 00:12:08] -->| YOU (zoltraks) have joined #galaxy
+[2010-01-04 00:12:08] =-= Topic for #galaxy is ``HO HO HOLY CRAP!!!''
+[2010-01-04 00:12:08] =-= Topic for #galaxy was set by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN on 1 stycznia 2010 00:17:34
+[2010-01-04 00:12:08] *dziewica* [#galaxy] Guten Tag -_-
+[2010-01-04 00:12:10] <Desmond> Oo\
+[2010-01-04 00:12:43] <Desmond> O! Ja zapomniałem że w nowych ogłoszeniach były już odpowiedzi zaimplementowane!
+[2010-01-04 00:12:45] <zoltraks> a, brakuje defaultow
+[2010-01-04 00:12:46] <zoltraks> czekaj
+[2010-01-04 00:12:49] <Desmond> I powiadamianie o nich nawet
+[2010-01-04 00:13:02] <zoltraks> heh
+[2010-01-04 00:13:49] <Desmond> A defaulty ... nie wiem czy były, bo wszystko raczej przez skrypt szło. Chociaż type i class mozna jako enum dać
+[2010-01-04 00:14:07] <Desmond> replies też jako varchar jest :\
+[2010-01-04 00:16:16] <zoltraks> to nie problem na razie
+[2010-01-04 00:16:19] <zoltraks> do czego ajax jest?
+[2010-01-04 00:16:25] <zoltraks> tzn. do czego w SQ
+[2010-01-04 00:16:34] <Desmond> Ogłoszenia i chat
+[2010-01-04 00:16:36] <zoltraks> co tam na ajaxie bylo?
+[2010-01-04 00:16:37] <zoltraks> o
+[2010-01-04 00:16:40] <Desmond> A, i jeszcze aktualizacja surowców
+[2010-01-04 00:16:41] <zoltraks> dziala czat?
+[2010-01-04 00:16:50] <Desmond> Dziala :D Nie widziałe� na skopnecie?
+[2010-01-04 00:17:05] <zoltraks> niespecjalnie, ok, musze go tez wkleic tutaj
+[2010-01-04 00:17:07] <zoltraks> ech...
+[2010-01-04 00:18:37] <Desmond> A co do tabel, to mozę nie koniecznie sama liczba tabel mnie przeraża, co ilo�ć zapytań do bazy. Suszon pamietam sie �miał jak widział te 25 na stronę :P
+[2010-01-04 00:19:10] <zoltraks> no?
+[2010-01-04 00:19:19] <zoltraks> ale to nieduzo jednak
+[2010-01-04 00:19:40] <zoltraks> zauwaz ze o ile mogloby byc ich mniej, np. 5, czy 10 to jednak wtedy samo zapytanie byloby dosc duze
+[2010-01-04 00:19:40] <Desmond> No jak dla mnie to dużo jest :P
+[2010-01-04 00:19:45] <zoltraks> ale dla SQL nie bardzo
+[2010-01-04 00:19:56] <zoltraks> no, dobra
+[2010-01-04 00:20:08] <zoltraks> ale wiesz, masz 26 tabel
+[2010-01-04 00:20:12] <zoltraks> dobra, mam
+[2010-01-04 00:20:30] <zoltraks> mozna by wywalic zapytania ktore nie sa potrzebne jesli akurat gracz i kolonia nie wymagaja przeliczenia
+[2010-01-04 00:20:48] <zoltraks> poza tym, mozna oczywiscie zrobic jedno zapytanie do wielu tabel
+[2010-01-04 00:21:13] <Desmond> W ogóle można by tak zrobić, by paramety wydobycia i takie tam liczone były tylko przy turach i ew. zmianach wydobycia, a tak byłby zapisane w bazie.
+[2010-01-04 00:21:20] <zoltraks> ale wtedy join bedzie rzezbil i wydaje mi sie (tzn. sprawdzalem kiedys nawet ze tak jest) ze lepiej zrobic osobno kilka zapytan niz jedno JOIN
+[2010-01-04 00:21:28] <zoltraks> no, dobra
+[2010-01-04 00:21:30] <zoltraks> to jest mysl
+[2010-01-04 00:21:37] <zoltraks> troche odchudzi PHP
+[2010-01-04 00:22:17] <zoltraks> wiesz... w sumie to zaraz, najpierw wrzuce te adsy i skoncze juz, zeby na serwie byl uaktualniony z mojego lokala kod
+[2010-01-04 00:23:36] <Desmond> Hm, bo teraz jak zrobijemy gracza na user, hero i player to mamy 3 zapytania. Config - 4; ataki - 5 (z transportami zapewne); chat 6; budowa 7; kolonia 8; wyposazenie 9; klan 10; item 11; places 12; producke 13; badania 14;
+[2010-01-04 00:23:46] <zoltraks> a, cos mialem
+[2010-01-04 00:23:57] <Desmond> Do tego zapytania specyficzne dla danej strone
+[2010-01-04 00:24:02] <zoltraks> no tak
+[2010-01-04 00:24:07] <zoltraks> czyli i tak bedzie ~20
+[2010-01-04 00:24:21] <zoltraks> ale budowa jest potrzebna tylko przy stronie z budową
+[2010-01-04 00:24:24] <zoltraks> itd.
+[2010-01-04 00:24:28] <zoltraks> mam pytanie
+[2010-01-04 00:24:28] <Desmond> I przeliczeniu :P
+[2010-01-04 00:24:37] <zoltraks> no, ale zakladamy, ze nie bedziesz przeliczal
+[2010-01-04 00:24:42] <zoltraks> tylko czytal z DB
+[2010-01-04 00:25:37] <zoltraks> mam pytanie, w SQ jest duzo tych lokali - to jest tak pomieszane wszystko, czy tak ma byc?
+[2010-01-04 00:26:05] <Desmond> Jest porozbijane po prostu
+[2010-01-04 00:26:17] <Desmond> By nie ładować w kopalni locali sklepu
+[2010-01-04 00:26:30] <Desmond> Ale też jest tam spory burdel :)
+[2010-01-04 00:27:24] <zoltraks> jeszcze cos
+[2010-01-04 00:27:51] <zoltraks> menu w SQ jest inaczej zrobione, mam to zrobic tak jak w SQ?
+[2010-01-04 00:28:04] <zoltraks> co to hq.php?
+[2010-01-04 00:28:30] <zoltraks> wiesz, lokale to ja chce w DB
+[2010-01-04 00:28:37] <zoltraks> wtedy kazdy bedzie mogl dodac swoje tlumaczenie
+[2010-01-04 00:28:55] <Desmond> Sztab - taka strona wej�ciowa
+[2010-01-04 00:29:06] <zoltraks> acha, dobra, zobacze
+[2010-01-04 00:29:17] <zoltraks> na razie wywalam menu z header.php tylko do osobnej tablicy
+[2010-01-04 00:29:19] <Desmond> Wrzuciłem tam takie rzeczy jak ... newsy, pręgierz, liste adminów, kronikę galaktycznš, i takie tam
+[2010-01-04 00:29:24] <zoltraks> bo przeciez nie bedziemy za kazdym razem go zmieniac
+[2010-01-04 00:29:35] <zoltraks> kronike zrobiles? super 
+[2010-01-04 00:29:49] <zoltraks> sorki, ale tylko pobierznie czytalem na wiki SQ i mi chyba umknelo
+[2010-01-04 00:30:23] <Desmond> W SSE była już, było kiedy kto jaki sojusz założył. Jak wprowadziłem dyplomację to pojawiały się informacje o wojnach i sojuszach (albo miały się pojawiać)
+[2010-01-04 00:31:00] <Desmond> A bo tego do wiki nawet nie wrzuciłem ;P
+[2010-01-04 00:31:16] <zoltraks> ok, tylko sie nie denerwuj
+[2010-01-04 00:31:20] <zoltraks> kolejne zapytanie
+[2010-01-04 00:31:28] <zoltraks> bo ja mam menu robione na SQL :P
+[2010-01-04 00:31:37] <zoltraks> czy wolisz to zostawic w config.php?
+[2010-01-04 00:31:42] <Desmond> Oł.maj.god
+[2010-01-04 00:31:56] <zoltraks> moge robic w konfiguracji, z tablicy przeciez
+[2010-01-04 00:32:09] <zoltraks> to wlasnie dlatego sie pytam
+[2010-01-04 00:32:10] <Desmond> Jak Ci będzie łatwiej
+[2010-01-04 00:32:18] <Desmond> :D
+[2010-01-04 00:32:20] <zoltraks> latwiej bedzie w config.php
+[2010-01-04 00:32:31] <Desmond> A praktyczniej jak będzie?
+[2010-01-04 00:32:33] <Desmond> Daj w SQL
+[2010-01-04 00:32:37] <zoltraks> ok
+[2010-01-04 00:33:30] <Desmond> Co do kroniki - dobrze by było wrzucić jš na jakš� stronę głównš. W ogóle my�lałem, żeby nie dodać tabeli events.
+[2010-01-04 00:33:43] <zoltraks> mozna ja wyrzucic
+[2010-01-04 00:33:47] <zoltraks> nie byla uzywana przeciez
+[2010-01-04 00:33:52] <zoltraks> dobra, nie dam SQL
+[2010-01-04 00:33:58] <Desmond> Wszystkie akcje w kolonii takie jak zakończenie budowy, wykrycia ataków, badania byłbyby tam.
+[2010-01-04 00:34:00] <zoltraks> tutaj sa zaleznosci, bo ja tak robie drzewiaste menu
+[2010-01-04 00:34:03] <zoltraks> moze jednak nie teraz
+[2010-01-04 00:34:21] <zoltraks> no, mozna tak zrobic
+[2010-01-04 00:34:22] <Desmond> A messages to messages, raporty dać do galaxy_reports, z możliwo�ciš udostępniania ich klanom.
+[2010-01-04 00:34:42] <zoltraks> no, ok, ja to w ogole myslalem, zeby raporty to sobie user robil sam
+[2010-01-04 00:34:54] <Desmond> Mnie to denerwowało że nie można rozróżnić czy to kto� przesyła msg a tutaj ... meteoryt rypnšł :P
+[2010-01-04 00:35:03] <zoltraks> hehe
+[2010-01-04 00:35:07] <zoltraks> no, mozna by to pokolorowac
+[2010-01-04 00:35:11] <zoltraks> raporty masz zawsze od robota
+[2010-01-04 00:35:37] <zoltraks> wiec moze zamiast kolejnej tabeli tylko zrobic w klanie ogladanie wiadomosci od robota do czlonkow klanu
+[2010-01-04 00:36:09] <Desmond> Hehe, tylko że ...
+[2010-01-04 00:36:55] <Desmond> Albo i nie ... wiesz, ja naprawde myslałem żeby te ataki były takie pro i w ogóle. Ale wtedy raporty też musiałyby być pro, a taka tabela wiadomo�ci powoli przestałšby się nadawać - byłaby za prosta.
+[2010-01-04 00:37:22] <Desmond> Ale co do wiadomo�ci to pamietam że i w SSE i w NA bylo zrobione sortowanie wiadomo�ci
+[2010-01-04 00:37:26] <zoltraks> ty
+[2010-01-04 00:37:33] <zoltraks> no dobra, sortowanie to pikus
+[2010-01-04 00:37:42] <Desmond> Na raporty z ataków, kolonialne, komunikacja
+[2010-01-04 00:37:45] <zoltraks> acha
+[2010-01-04 00:37:48] <zoltraks> takie sortowanie
+[2010-01-04 00:37:48] <zoltraks> :P
+[2010-01-04 00:37:55] <Desmond> Takie było
+[2010-01-04 00:38:04] <zoltraks> ok, czekaj
+[2010-01-04 00:38:07] <zoltraks> cos jeszcze mam
+[2010-01-04 00:38:20] <zoltraks> jest obsluga $Menu juz w GF
+[2010-01-04 00:38:25] <zoltraks> tylko nie uzywana :P
+[2010-01-04 00:38:33] <Desmond> :P
+[2010-01-04 00:38:53] <zoltraks> robilem kiedys cos takiego jak phpsynapse
+[2010-01-04 00:38:58] <zoltraks> do tej pory robie
+[2010-01-04 00:39:05] <zoltraks> na tym aplikacje webowe pisze
+[2010-01-04 00:39:15] <Desmond> No wiem, na tym jest GF
+[2010-01-04 00:39:23] <zoltraks> tzn. ja 1 (RCP - raporty kontroli dostepu do pracownikow) a skszenks 2 WINDYK
+[2010-01-04 00:39:37] <zoltraks> no, na pierwszych wersjach tego
+[2010-01-04 00:39:40] <Desmond> W-INDYK? :D
+[2010-01-04 00:39:43] <zoltraks> :P
+[2010-01-04 00:39:53] <zoltraks> soft do obslugi biura windykatora
+[2010-01-04 00:40:11] <Desmond> :)
+[2010-01-04 00:40:29] <zoltraks> tylko, ze w phpsynapse musialem zmienic nazwe, bo nie mozna nazywac softu phpcośtam wg teamu PHP
+[2010-01-04 00:41:04] <zoltraks> chcesz sie zalamac?
+[2010-01-04 00:41:10] <Desmond> Ech ta standaryzacja ...
+[2010-01-04 00:41:30] <Desmond> Ja?
+[2010-01-04 00:41:34] <Desmond> Ja już jestem załamany
+[2010-01-04 00:42:48] <zoltraks> a ja chyba sie starzeje
+[2010-01-04 00:43:05] <Desmond> Tylko Ibisz cišgle ten sam ...
+[2010-01-04 00:43:25] <zoltraks> ostatnio wymyslilem (zapewne, nie tylko ja) fajna konstrukcje: if (false!==$p=strpos($s,$q)) ...
+[2010-01-04 00:44:09] <Desmond> Czasami próbowałem co� podobnego robić, ale efekty były kosmiczne chwilami
+[2010-01-04 00:44:16] <zoltraks> taka konstrukcja wykona kod if wewnatrz ktorego $p zawiera pozycje odnalezionego tekstu liczona od 0 bez zbednego sprawdzania czy tekst w ogole jest odnaleziony
+[2010-01-04 00:44:21] <zoltraks> no, tak jest
+[2010-01-04 00:44:28] <zoltraks> ale jak juz sie uda, to wyglada niezle ;-)
+[2010-01-04 00:46:31] <Desmond> :D
+[2010-01-04 00:46:39] <Desmond> Wystarczy, że widziałem kod Sharka ... :)
+[2010-01-04 00:47:13] <zoltraks> http://galaxy.alyx.pl/link/media/2010-01-03/vaco-2009.12.7z
+[2010-01-04 00:47:16] <Desmond> I Skszenksa
+[2010-01-04 00:47:33] <zoltraks> skszenksa?
+[2010-01-04 00:47:40] <zoltraks> ty mowisz powaznie?
+[2010-01-04 00:47:49] <Desmond> A to nie on pisał te klasy do ataków?
+[2010-01-04 00:47:52] <zoltraks> acha
+[2010-01-04 00:47:53] <zoltraks> tak
+[2010-01-04 00:47:55] <Desmond> JA już nie pamietam nawet ...
+[2010-01-04 00:48:02] <zoltraks> przegiał
+[2010-01-04 00:48:05] <Desmond> Ja z programowaniem obiektowym to jestem na bakier ;>
+[2010-01-04 00:48:06] <zoltraks> PHP to nie Delphi
+[2010-01-04 00:48:17] <Desmond> Czemu? Ja mam wrażenie że chcesz zrobić cos podobnego :D
+[2010-01-04 00:48:19] <zoltraks> e, nie martw sie, nauczymy ciebie
+[2010-01-04 00:48:21] <zoltraks> nieeeee
+[2010-01-04 00:48:27] <zoltraks> w życiu, nie w PHP
+[2010-01-04 00:48:31] <zoltraks> dopiero w PHP 6
+[2010-01-04 00:48:50] <zoltraks> bo na razie to brakuje jeszcze klas w klasach oraz namespace'ow (dopiero od 5.3)
+[2010-01-04 00:48:57] <zoltraks> i same namespacy tez nie sa ok
+[2010-01-04 00:48:58] <zoltraks> ale...
+[2010-01-04 00:49:06] <Desmond> Hm, same obiekty nie sš trudne w teorii - konsturktor, funkcja, zmienne itp
+[2010-01-04 00:49:14] <Desmond> Ale gorzej jak idzie zrobienie czego� takiego :P
+[2010-01-04 00:49:41] <zoltraks> e, bo wiesz co
+[2010-01-04 00:49:44] <zoltraks> musisz sobie to narysowac
+[2010-01-04 00:49:49] <zoltraks> mozesz w Visio
+[2010-01-04 00:49:57] <zoltraks> ale kartka jest lepsza
+[2010-01-04 00:49:59] <Desmond> O! Ciekawe :>
+[2010-01-04 00:50:13] <zoltraks> robisz tak: masz np. takie tabele galaxy
+[2010-01-04 00:50:18] <zoltraks> potraktuj kazda z nich jak klase
+[2010-01-04 00:50:30] <zoltraks> a rekord jako obiekt o atrybutach pojedynczego rekordu
+[2010-01-04 00:51:02] <Desmond> No
+[2010-01-04 00:51:07] <zoltraks> i teraz wszystko co chcesz robic na tych atrybutach umieszczasz w metodach danej klasy
+[2010-01-04 00:51:16] <Desmond> No tak
+[2010-01-04 00:51:25] <Desmond> A jeszcze wracajšc do gru
+[2010-01-04 00:51:26] <Desmond> gry
+[2010-01-04 00:51:44] <Desmond> Co do planet. Ja nie wiem w końcu jak to będzie - nie pisałem o tym. Ale jeszze mam taki pomysł by każdap laneta miała wskażniki rozwoju takie jak: gospodarka, nauka, infrastruktura,obrona itp
+[2010-01-04 00:51:51] <zoltraks> czemu nie
+[2010-01-04 00:51:56] <zoltraks> dawaj nazwy pól
+[2010-01-04 00:51:58] <Desmond> I każdy wska�nik daje bonus wszystkim koloniom na planecie
+[2010-01-04 00:52:04] <zoltraks> wstawie je do db
+[2010-01-04 00:52:26] <Desmond> Hehe, ja myslalem ze na to jedno pole będzie. Albo ew. dwa.
+[2010-01-04 00:52:33] <zoltraks> e, walimy inty
+[2010-01-04 00:52:38] <Desmond> Oka
+[2010-01-04 00:52:41] <zoltraks> tych rekordow jest malo
+[2010-01-04 00:52:45] <zoltraks> galaxy_space
+[2010-01-04 00:52:55] <Desmond> Ale to musze najpierw teoretycznie to opracować (dzisiaj rano?)
+[2010-01-04 00:53:18] <Desmond> Ale jeszcze kwestia tego, że wska�niki planety byłyby też �ci�le połšczone z gubernatorem planety
+[2010-01-04 00:53:33] <zoltraks> nie ma pospiechu, przemysl, rozrysuj i najlepiej opisz mi na wiki
+[2010-01-04 00:53:54] <Desmond> I gubernator albo buduje lokacje, albo rozwija planetę. Planeta ma jakš� tam wielko�ć, im większa tym drożej rozbudowa kosztuje.
+[2010-01-04 00:54:21] <Desmond> No, piszę o tym, by jak juz będziemy bazę robić i takie rzeczy, to od razu to opracować :)
+[2010-01-04 00:54:48] <Desmond> Tylko muszę wiedzieć co o tym sšdzie,sz ja tutaj piszę Ci kilotony koksu pomysłowego a w zasadzie nie wiem co ostatecznie sie znajdzie w wersjii finalnej.
+[2010-01-04 00:55:06] <zoltraks> sry, $Menu pojawia sie tylko w jednym miejscu i nie jest uzywane
+[2010-01-04 00:55:09] <zoltraks> wezme z phpsynapse
+[2010-01-04 00:55:33] <Desmond> :)
+[2010-01-04 00:56:16] <zoltraks> desmond, robimy gre, czy nie? wydaje mi sie ze gubernator, to moze nie teraz, ale w przyszlosci, a mniejsze zmiany - czyli wskazniki mozna juz wpisac
+[2010-01-04 00:56:17] <Desmond> Czekaj, niech pomy�le o czym to ja już Ci pisałem: orbita, kolonia, ataki, satelity, gubernator, planety, to chyba narazie tyle.
+[2010-01-04 00:56:22] <zoltraks> ok
+[2010-01-04 00:56:26] <zoltraks> super
+[2010-01-04 00:56:37] <zoltraks> mam to w .log'u, ale tez musze to przemyslec
+[2010-01-04 00:56:54] <Desmond> Ja w Wiki to opracuję bardziej szczegółowo
+[2010-01-04 00:57:10] <Desmond> Ale jak dla mnie choćby gubernator planet wprowadzi pewnš dynamikę do gry
+[2010-01-04 00:57:21] <Desmond> No i kurwa wreszcie będzie wiadomo co sie dzieje z podatkami z banku
+[2010-01-04 00:57:27] <zoltraks> super, jak masz pomysl jak to ma w bazie danych wygladac lub jak ma wygladac liczenie (w engine() zrobie obsluge funkcji z tabeli $Handlers)
+[2010-01-04 00:57:40] <zoltraks> hah, wlasnie
+[2010-01-04 00:57:58] <zoltraks> masz tak, engine() dziala w kilku fazach
+[2010-01-04 00:58:07] <zoltraks> znasz go zreszta, bo sa nazwane w komentach
+[2010-01-04 00:59:19] <zoltraks> wiec $Handlers[faza][] moze zawierac wywolania funkcji, dostana jako wskaznik ( & ) caly stan - czyli to co zwraca engine()
+[2010-01-04 00:59:31] <zoltraks> i tylko dopiszemy funkcje gubernatora
+[2010-01-04 00:59:54] <Desmond> Co� czuje, że przydałyby mi sie studia informatyczne :D
+[2010-01-04 00:59:56] <zoltraks> przy minimalnej zmianie kodu engine(), pozostanie kompatybilny do czasu pelnej integracji z dystrybucjami GF
+[2010-01-04 01:00:04] <zoltraks> normalnie
+[2010-01-04 01:00:33] <zoltraks> function mojaSuperNazwa(&State) { $State->Colony[]+=... }
+[2010-01-04 01:00:56] <zoltraks> i $Handlers[][] = "mojaSuperNazwa"
+[2010-01-04 01:01:04] <zoltraks> tak sobie mysle
+[2010-01-04 01:01:18] <Desmond> Spoko, wiesz co. Wprowadz te wszystkie zmiany co planowałes, potem to jako� ogarnę jak już zaczniemy rozwijać grę.
+[2010-01-04 01:01:21] <zoltraks> no
+[2010-01-04 01:01:22] <zoltraks> wlasnie
+[2010-01-04 01:01:30] <zoltraks> myslalem, ze w 2 tyg damy rade
+[2010-01-04 01:01:33] <zoltraks> ale moze byc to i 3 tyg
+[2010-01-04 01:01:39] <Desmond> A póki co, jeżeli to nie problem będzie, mogę napisać nawet co� na starym galaxy już z tego co planowałem
+[2010-01-04 01:01:40] <zoltraks> tzn. w tyle, zeby zrobic te zmiany
+[2010-01-04 01:01:46] <Desmond> Panel gubernatora to nie problem
+[2010-01-04 01:01:48] <zoltraks> tak
+[2010-01-04 01:01:51] <zoltraks> dokladnie
+[2010-01-04 01:02:00] <zoltraks> bedzie kompatybilny, moze z drobnymi poprawkami
+[2010-01-04 01:02:02] <zoltraks> poza tym
+[2010-01-04 01:02:04] <zoltraks> mamy TMT
+[2010-01-04 01:02:08] <zoltraks> w razie czego zr
+[2010-01-04 01:02:10] <Desmond> :)
+[2010-01-04 01:02:15] <zoltraks> zmodyfikuje sie go zeby poprawial cos jeszcze
+[2010-01-04 01:02:20] <zoltraks> ;)
+[2010-01-04 01:03:04] <Desmond> Bo współczynniki planet to tez nie problem. Po prostu np. siła robocza kolonii będzie dodatkowo przemnażana przez gospodarkę planet.
+[2010-01-04 01:03:42] <Desmond> A no i ważna rzecz: planeta ma max 100%, tak więc nie ma tak ze rozbudujemy jš w nieskończono�c, tylko od gubernatora zależy jak planeta będzie wyglšdać.
+[2010-01-04 01:04:15] <Desmond> Jak wpakujesz 70% w obronę, to wszyscy majš 70% do obrony, ale na innej planecie mogš mieć 60% w gospodarkę i produkować masę złomu na orbitę.
+[2010-01-04 01:04:50] <Desmond> No i ostatecznie - gubernator musi się dogadywać z graczami na planecie :)
+[2010-01-04 01:05:12] <Desmond> W zasadzie to wszystkie założenia głowne co sš, jak co� zastanów się nad tym.
+[2010-01-04 01:05:23] <Desmond> Czy warto w to brnšć
+[2010-01-04 01:07:22] <Desmond> ihi, jakby dodać parametr �rodowisko, to im wyższy on będzie tym lepsze zadowolenie w koloniach i mniejsze zanieczyszczenia
+[2010-01-04 01:07:50] <Desmond> No nic, ja będę szedł sać
+[2010-01-04 01:07:52] <Desmond> spać
+[2010-01-04 01:28:27] <Desmond> Widze nie tylko ja poszedlem spac ;)
+[2010-01-04 01:49:22] <zoltraks> ja?
+[2010-01-04 01:49:24] <zoltraks> w zyciu
+[2010-01-04 01:49:54] <zoltraks> wykorzystalem render planety "alice" i ikony do menu trzasnalem
+[2010-01-04 01:50:07] <zoltraks> http://galaxy.game-host.org/link/media/2010-01-03/1/
+[2010-01-04 02:02:07] <Desmond> Hehe
+[2010-01-04 02:02:42] <Desmond> Masz pecha, wła�nie się wykšpalem i jak wiesz -> podczas kšpieli zawsze sa największe "eureka"
+[2010-01-04 02:03:35] <Desmond> Ikony sš wporzo
+[2010-01-04 02:04:00] <Desmond> Jeste�?
+[2010-01-04 02:04:09] <Desmond> zoltraks: bist du? :P
+[2010-01-04 02:04:15] <zoltraks> tak
+[2010-01-04 02:04:24] <zoltraks> ja bym sie tez wykapal
+[2010-01-04 02:04:30] <zoltraks> ale mam nieczynna do jutra lazienke
+[2010-01-04 02:04:44] <Desmond> O, jeszcze jedno mnie naszło (znowu!). Jednostki niepotrzebnie w kolonii zabierajš energię jak nic nie robiš.
+[2010-01-04 02:04:58] <zoltraks> ale skad wiemy ktore nic nie robia?
+[2010-01-04 02:05:08] <Desmond> A to proste. Masz 1000 robotów
+[2010-01-04 02:05:30] <Desmond> 500 jest przy budowie, 500 jest wolne. Tylko 500 żre energię.
+[2010-01-04 02:05:45] <Desmond> Te co pracujš oczywi�cie
+[2010-01-04 02:06:46] <Desmond> Druga sprawa - przy atakach. Sila obrońcy jest przeliczana przez % (energia w bazie/wymagania jednostek)
+[2010-01-04 02:07:20] <Desmond> Jeżeli wynosi to 100%, to wtedy wszystkie jednostki broniš kolonię. A tak przeliczane to jest odpowiednio.
+[2010-01-04 02:07:54] <Desmond> Gra stanie się łatwiejsza, bo nie będzie trzeba wysyłać na orbity flot.
+[2010-01-04 02:18:01] <Desmond> Dobra, uwalniam Cie od moich chorych pomysłów idšc spać.
+[2010-01-04 02:18:03] <Desmond> Narazie
+[2010-01-04 02:18:12] |<-- Desmond has left poznan.ircnet.pl (":< 4 8 15 16 23 42_")
+[2010-01-04 02:34:39] <zoltraks> ok

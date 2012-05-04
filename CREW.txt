@@ -1,0 +1,273 @@
+                                      __
+                                     s$5s                 _
+                    ____       ___    s$s     __     _   s$s _     _
+                  .s$5S$s.  .s$5S5$s  s$s  .s$5S5$s s$s s$s s$s. .s$s 
+                  s$s',s$s  s$s 's$s  s$s  s$s 's$s  s$5s'   s$s,s$s' 
+                  s$s',s$s  s$s, s$s ,s$s. s$s, s$s  .sS5s    s$Ss'
+                  's$S5S$s  '$S5S$'s s$5Ss '$S5S$'s ,s$s s$s .s$s'
+                    __.s$s                         s$s    __,s$s'
+                  s$S5$'  -= [ _ C _ R _ E _ W _ ] =-    s$S5$'            
+
+ [x]................................................................. [ Updated: 2010-01-03 ]
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+ ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      _|_|_|    _|_|          _|_|_|_|        _|  _|    _|      _|                      
+    _|        _|    _|        _|          _|_|_|      _|_|_|_|        _|_|    _|_|_|    
+      _|_|    _|  _|_|        _|_|_|    _|    _|  _|    _|      _|  _|    _|  _|    _|  
+          _|  _|    _|        _|        _|    _|  _|    _|      _|  _|    _|  _|    _|  
+    _|_|_|      _|_|  _|      _|_|_|_|    _|_|_|  _|      _|_|  _|    _|_|    _|    _|  
+
+ [x] ................................................................ [ Updated: 2007-04-10 ]
+
+						Galaxy Forces - Stellar Quest
+					Modification of oryginal Galaxy Forces MMORPG
+                                made by Desmond
+
+	Podziekówki / Thanks to
+			zoltarx - za gre i udostepnienie servera wraz z domena sse.game-host.org
+
+ [x] .................................................................................... [x]
+
+		  _|_|_|  _|_|_|_|        _|_|_|                                          
+		_|        _|            _|        _|  _|_|    _|_|    _|      _|      _|  
+		_|  _|_|  _|_|_|        _|        _|_|      _|_|_|_|  _|      _|      _|  
+		_|    _|  _|            _|        _|        _|          _|  _|  _|  _|    
+		  _|_|_|  _|              _|_|_|  _|          _|_|_|      _|      _| 
+
+ [x] ................................................................ [ Updated: 2005-02-23 ]
+
+
+	Idea:
+			***
+
+	Code:
+			Zoltarx
+			Skszenks
+			Unk
+			Lander
+			Shark++ { main developer of the SSE edition }
+
+	Artwork:
+			Desmond { main developer of the SSE edition }
+			Szaman
+			Zoltarx
+
+	Patches:
+			Kot
+			Aydamusek
+
+	Hacking:
+			Aqilon
+			Dziadu
+			Desmond
+			Peacemaker
+
+			Xisio, bishop, abadonna	{ Spetzgroup C.C. aka SCC }
+
+			Suszon
+
+	Forum:
+			Lander
+			Zeratul
+			Aydamusek
+			Matiass
+			Desmond
+			Skszenks
+			Abadonna
+
+	IRC:
+			Lander
+			Thomas
+			Desmond
+			Galaxior
+
+			Zoltarx
+
+ [ GF Crew Memberlist End ] ............................................................. [x]
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+ ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    _|_|_|    _|_|_|  _|_|_|_|      _|_|_|_|        _|  _|    _|      _|                      
+  _|        _|        _|            _|          _|_|_|      _|_|_|_|        _|_|    _|_|_|    
+    _|_|      _|_|    _|_|_|        _|_|_|    _|    _|  _|    _|      _|  _|    _|  _|    _|  
+        _|        _|  _|            _|        _|    _|  _|    _|      _|  _|    _|  _|    _|  
+  _|_|_|    _|_|_|    _|_|_|_|      _|_|_|_|    _|_|_|  _|      _|_|  _|    _|_|    _|    _|  
+
+ [x]................................................................. [ Updated: 2006-04-23 ]
+
+				Galaxy Forces Solar System Edition
+			  Modification of oryginal Galaxy Forces 0.3.12
+				    made by Jaco!!! and Shark
+
+	Podziekówki / Thanks to
+			zoltarx - za gre i udostepnienie servera wraz z domena sse.game-host.org
+
+ [x]......................................................................................[x]
+
+	  _|_|_|  _|_|_|_|        _|_|_|                                          
+	_|        _|            _|        _|  _|_|    _|_|    _|      _|      _|  
+	_|  _|_|  _|_|_|        _|        _|_|      _|_|_|_|  _|      _|      _|  
+	_|    _|  _|            _|        _|        _|          _|  _|  _|  _|    
+	  _|_|_|  _|              _|_|_|  _|          _|_|_|      _|      _| 
+
+ [x]................................................................. [ Updated: 2005-02-23 ]
+
+	Idea:
+			***
+
+	Code:
+			zoltarx
+			skszenks
+			unk
+			lander
+			shark
+
+	Artwork:
+			jaco
+			szaman
+			zoltarx { lame }
+
+	Patches:
+			kot
+			aydamusek
+
+	Hacking:
+			aqilon
+			dziadu
+			jaco!!!
+			peacemaker
+
+			xisio, bishop, abadonna	{ Spetzgroup C.C. aka SCC }
+
+	Forum:
+			lander
+			zeratul
+			aydamusek
+			matiass
+			jaco!!!
+			skszenks
+
+	IRC:
+			lander
+			jaco!!!
+			Galaxior
+
+			zoltarx { drinking }
+
+ [ GF Crew Memberlist End ] ..............................................................[x]
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+ -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+ ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _Ü²²ß¼Ëp   qßßßßßßQ.   úÖWßßÌ. .Ìßßßßß¼Ë.   .Ìßßßßßp  jÌßQ.   jÌßË     ÌßQ,
+   ÖÛß`-¼ ÿ¼p  İ      ]İ  jÌı   ]İ Ş`      ÀÌù  Şı     Ş  Ìù ]İ   Ş` ûİ   ªİ ]İ
+  jÛı   Ş  ÿİ  İ      ªİ jM     ŞF Ş        ]p  Ş      Ş  Ì   Ì  .İ  ÿİ   Ş` _F
+ Ş²ı  ÜÜ¼  ŞF  Ü  ŞÒÜÒÌ` W:  ÜÜÌĞ= Ü  jÒÜÒ,  Q  Ş  ÖÒÜÒE  Ş.ªÜŞp jf   Şù úÌ  Ş`
+ Ìİ .Ì²¼¼ËÜM=  ²  ûÜÒÒp jı  j¼ù    ²  Şİ ]İ  Ş  Ş  ÌÜÒÜ   ]pÌÿÌİ Ş+   ûp jF  Û
+ª¼` ŞÌ`        ²     ûÌ í  .İ      ²  Şİ Öı  Ş  Ş     ûİ   Ìİ ŞÌ.İ    ùİ Şÿ ªF
+Şÿ  İ`   jMßp  ²      Ş İ  j(      ²  ŞÌMı  ùÌ  Ş     :İ   ŞÌ û²Ìf .²  Ş_İ  Şÿ
+Ş   İ    Ì  Ş  ²     ¿Ì İ  Ş,      ²  Ş²ú  :Ìı  Ş     jf   ]²p Ì²  j²p û²ı  İ
+Ş.      İ  Ş  ²  ŞÌßßÿ ². ŞÌ      ²  ŞÌİ  Ş`   Ş  ÌßßĞ     Ìİ Şİ  Ì)İ ú²  jf
+]İ  ûå   İ  Ş  ²  Şİ    ²İ û²r     ²  Şİ¼  ûİ   Ş  İ        û².   _İ Ì     Şù
+ Ì   MË,úİ  Ş  İÜÒMİ    ûİ  Ş²Ò¿   ²p ûİûå  ûå  Ş  ÜÜÒÜp     ²p   Şı Şp   _İ
+ ûp   Àßßı  Ş  İ   İ    ù²p  Ì]ÓÌ, İÓßıİ Q   Q= Ş  Ìå  4r    Ş.   Ì  ]İ   Şı
+  Mp        Ş  İ   İ     À²pùÌ  ûİ İ   İ ]p  )p Ş  ùÌ  ùİ    ûİ  _İ   Ìù  Ì
+   ßÜ,     Ö¼  İ  ŞE      À²²ı  jF İ  .İ  Q. _İ ûp .Ì  ŞF     Ìú Şı   Şİ ªİ
+    ûßÌÜÒÜMĞ   ûËÜM|       ùĞQÜÜíi MÜÒÌ`  ]¼ÜÌ` -ÌÜ²ÜÜÒM:     ]ÌÜN    ÿ¼ÜÌ`
+
+ ..................................................... [ Updated: 2005-11-01 ]
+
+	Idea:
+			***
+
+	Code:
+			zoltarx
+			skszenks
+			unk
+			lander
+			shark++ { main developer of the SSE edition }
+
+	Artwork:
+			jaco
+			szaman
+			zoltarx { lame }
+
+	Patches:
+			kot
+			aydamusek
+
+	Hacking:
+			aqilon
+			dziadu
+			jaco!!!
+			peacemaker
+
+			xisio, bishop, abadonna	{ Spetzgroup C.C. aka SCC }
+
+			suszon
+
+	Forum:
+			lander
+			zeratul
+			aydamusek
+			matiass
+			jaco!!!
+			skszenks
+			abadonna
+
+	IRC:
+			lander
+			jaco!!!
+			Galaxior
+
+			zoltarx { drinking }
+
+ [ GF Crew Memberlist End ] ..................................................

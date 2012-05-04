@@ -1,0 +1,43 @@
+table.input { border: 1px solid #ebd; }
+table.input tr.row1 { background-color: #eee; }
+table.input tr.row2 { background-color: #ddd; }
+table.input td { padding: 2px; }
+table.input td b { font-size: 110%; }
+
+form.input input[type=text] { margin: 2px; padding: 2px; border: 1px solid #6a9; }
+form.input input[type=text]:hover { margin: 2px; padding: 2px; border: 1px solid #f00; }
+form.input input[type=submit] { margin: 2px 8px 2px 8px; padding: 2px; }
+form.input select { margin: 1px; padding: 1px; border: 1px solid #a96; }
+form.input select:hover { margin: 1px; padding: 1px; border: 1px solid #f00; }
+
+form.control input { font-weight: normal; }
+form.control input[type=text] { margin: 2px; padding: 2px; border: 1px solid #6a9; font-weight: normal; }
+form.control input[type=text]:hover { margin: 2px; padding: 2px; border: 1px solid #f00; }
+form.control input[type=submit] { margin: 2px 8px 2px 8px; padding: 2px; font-weight: normal; }
+form.control select { margin: 1px; padding: 1px; border: 1px solid #a96; }
+form.control select:hover { margin: 1px; padding: 1px; border: 1px solid #f00; }
+
+table.sheet { border: 1px solid #cce; }
+table.sheet tr.row1 { background-color: #eee; }
+table.sheet tr.row1:hover { background-color: #dfe; }
+table.sheet tr.row2 { background-color: #ddd; }
+table.sheet tr.row2:hover { background-color: #ced; }
+table.sheet tr.head { background-color: #ccd; }
+table.sheet tr.head:hover { background-color: #eec; }
+table.sheet tr.foot { background-color: #ccc; }
+table.sheet tr.foot:hover { background-color: #eec; }
+table.sheet td { padding: 2px; }
+table.sheet td b { font-size: 110%; }
+table.sheet thead tr { background-color: #ccd; }
+table.sheet thead tr td { color: #134; font-size: 9pt; font-weight: bold; padding-bottom: 1px;}
+table.sheet thead tr td:hover { background-color: #eec; }
+table.sheet tfoot tr { background-color: #ccc; }
+table.sheet tfoot tr td { color: #134; font-weight: bold; padding-bottom: 1px; }
+table.sheet tfoot tr td b { color: #009; font-weight: bold; padding-bottom: 1px;}
+table.sheet tfoot tr td:hover { background-color: #eec; }
+table.sheet tr.row1 td.key { background-color: #ccc; color: #115; }
+table.sheet tr.row2 td.key { background-color: #bbb; color: #134; }
+
+table.iconbox td:hover { background-color: #eee; }
+
+h3 { padding-top: 4px; margin-bottom: 8px; color: #137; font-family: "Trebuchet MS"; }

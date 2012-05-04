@@ -1,0 +1,381 @@
+
+2010-01-03	[ 0.5.1 ]
+
+Update: Newer MySQL driver for use UTF-8 locales
+Change: All PHP scripts are not using short tags anymore
+Change: All text files now have .txt extension
+Bug: Fixes types and checks are now logged into security.log
+Add: Advertisement mechanism from Stellar Quest
+Update: Function str_sqlsafe() added again to provide compatilibuty 
+New: Module "censorship" inspired by Stellar Quest's autocensoring mechanism
+New: Module "rank" from Stellar Quest "include/common.php"
+
+
+2009-12-31	[ 0.4.7 ]
+
+After very long time original team is going to work under new relase of Galaxy Forces project. 
+Stay tuned!
+
+
+2005-11-19	[ 0.4.6 ]
+
+Bug fixed: Possibility in javascript execution in bbcode - thx to sharkpp
+Bug fixed: Changing colony description - thx to lander
+Change: Antispam option - thx to sharkpp
+Change: Little change in code - another few functions went away.
+New: Colony crew members...
+
+
+2005-11-12	[ 0.4.5 ]
+
+New: Site maintenance option
+New: Options in administration panel by unk
+New: Droping, giving items
+Change: User authentication method updated
+Change: Small database update, some code may not work properly :(
+Bug fixed: Researches can be finished in one turn - thx to undeath
+
+
+2005-11-02	[ 0.4.4 ]
+
+Bug fixed: Attacks
+Bug fixed: Credit cards - thx lander
+New: Robot AX-3, Robot AX-6, Walker, Valkyrie units available for human technology
+Change: New round counter - thx unk
+Change: Sorting by IP - thx unk
+Change: Colony building amount in build list - thx jaco!!!
+
+
+2005-10-25	[ 0.4.3 ]
+	
+New: Referer blocking module (testing)
+New: Research level
+Bug fixed: Hawk amount in attacks missed - thx to carrigan
+Changes: Research may be cancelled now
+
+
+2005-10-21	[ 0.4.2 ]
+
+Bug fixed: Crystals can be bought in markets again
+Bug fixed: Notices when donating clan
+Bug fixed: When production goes too long you wont see percentage
+Bug fixed: Defense reports are more true now
+New: Crystals can be eaten by local lifeform (depend on planet life signs)
+New: 10% for communication lost when trying to cancel attack
+New: BX-1 robots now can be damaged
+
+
+2005-10-19	[ 0.4.1 ]
+
+New: Drinks are now ready to use (drink ;)
+New: Descriptions for all units
+New: Emoticons in messages
+Bug fixed: Case insentitive search when changing clan status
+Bug fixed: Attack durations now less but can be more than 6 turns
+Bug fixed: Attack/Defense reports changed
+Changes: Level up only by 1 level
+Changes: More resources can be found by exploration
+Changes: More experience in mines
+
+
+2005-10-15	[ 0.4.0 ]
+
+Changes: Lots of bugfixes and small changes in the code...
+Changes: Attacks costs credits and more resources but are a bit (6 times) faster
+Changes: Whisper unit, ported from SSE - thanks to shark++ and jaco!!!
+Changes: Sources are not unlimited from now - thanks to aydamusek
+Bug fixed: New PM module - thanks to login_error
+
+
+2005-10-11	[ 0.3.17 ]
+
+Changes: Some updates... No time for log...
+Changes: GF Crew updated ?-)
+Changes: Sources now available at sourceforge.net
+
+
+2005-10-03	[ 0.3.16 ]
+
+Brought GF into life again. No time for log...
+
+
+2005-06-27	[ 0.3.15 ]
+
+Bug fixed: Chat now works from Links browser
+Bug fixed: Chat messages are now being deleted correctly!
+Bug fixed: Resources not shown if there are only sources (without any silos)
+Bug fixed: Wrong page count on messages page
+Bug fixed: Avatar change in colony and finger pages
+Bug fixed: Fixes in messages page
+Bug fixed: Colony corruption if no silos reported as to less energy to keep silos on - fixed report
+New: Colony description
+New: Password change for administrators
+New: Chat administration for moderators
+New: RSS channels for chat and news
+New: Planets in Wolf galaxy
+New: Planet scanning (mp cost depends on scanner type)
+New: Selling items in item shops
+New: Setup for installing GF locally :-)
+New: BB for private messages
+Changes: Less score from working in mines
+Changes: Teleports can provide more than one target
+Changes: Markets can sell everything now (even energy)
+Changes: Chat module fixed
+Changes: You will loose 15% score if colony abandoned
+Changes: Reputation affects on prices in item/gem shops and markets
+Changes: Default theme improved to be better viewed with Konqueror browser
+Changes: Project tree rebuild a bit
+
+
+2005-05-13	[ 0.3.13 ]
+
+Changes: HTML links improved to make Opera always refresh content.
+New: Colony details at whois.
+New: New style editor for sending messages.
+New: Clan administration at finger (whois)
+
+
+2005-05-11	[ 0.3.12 ]
+
+New: lot of bugs :-)
+New: Experience system changed but not finished so locked now!
+New: Tron technology.
+
+
+2005-04-10	[ 0.3.11 ]
+
+Changes: Base level 5 has now less requirements.
+Changes: Corruption if uran silos overloaded.
+Changes: Detectors are less effective but can be supported with satellites.
+Changes: Sounds can be turned off in profile.
+Changes: Only one database connection attempt.
+Changes: Maximum 32 chars for username.
+New: Lot of new researches (check them yourself).
+New: Administration panels build in GF - thanks to unk.
+New units: Satellites.
+New buildings: Space Depot, Bunkers, Laser and Plasma Towers.
+Update: Tools.
+Fixes: More compatible with Opera browser.
+Fixes: Layout patches (visuals).
+Bug fixed: Exploration can't give you less than 1 stuff (if found of coz).
+Bug fixed: Equipment requirements checking.
+Bug fixed: Sounds under IE.
+Bug fixed: Thoria could give you too much experience.
+Bug fixed: Travel countings works again!
+
+
+2005-03-30	[ 0.3.10 ]
+
+New place: Thoria located on meteors: Gemini and Quarell
+New meteor: Quarell located in Plexi galaxy (discovered by skszenks)
+New: Many new items & equipment added
+New: GG bot (see profile).
+Bug fixed: Colony does not give you more resources than capacity.
+
+
+2005-03-25	[ 0.3.9 ]
+
+Bug fixed: Avatars
+Fixes: Security issues...
+Changes: One anomaly and one blackhole found in our universe ;)
+Testing: Command Center can be upgraded up to 5 level...
+New planet: Phantomia in Onion galaxy (previously Nebula).
+
+
+2005-02-25	[ 0.3.8 ]
+
+New places: Item shops located on asteroids. Selling will be available soon.
+New objects: Asteroids in Tron and Maya galaxies.
+Code: Changed all references to name variable - security fix.
+Code: Protection from unknown place in readplaces()
+Code: Passing by reference in some functions, i.e. readequipment()
+
+
+2005-02-23	[ 0.3.7 ]
+
+Other: Forgotten about this info :D
+Changes: New authentication system! All old passwords are incompatible, so they needs to be set again!
+Changes: Chat table fixed
+New: Meteors and asteroids have born!
+Code: More and more minor changes in most of files. New schema: clandonation.php should say enough!
+New: Creating groups is available now for all!
+
+
+2005-01-06	[ 0.3.6 ]
+
+Changes: Many new emoticons added by lander & aydamusek
+New: IRC java applet thanks to lander & jaco
+Working: Cookie system... :D
+Changes: Angus planet moved near Ben and joined system M-14.
+New: Planets can be recultivated by clan council.
+Changes: Messages can be send from the Clan menu.
+Project: Let's open some sources...
+Look & Feel: Useless changes!
+Changes: Autoclean recent messages in external include.
+Changes: Sources versioning (1.0 instead 1.0.0)
+Testing: New combat system! Multiply fights available!
+
+
+2004-12-21	[ 0.3.5 ]
+
+Notice: some of new options are not fully functional yet!
+Testing: Spend energy first for units then for Uran mines then Fusion reactors!
+Changes: Uran mines can be turned off!
+New place: Clan Hall
+Notice: Creating places for home galaxy finished. There will be no more!
+Changes: Online status on Arenas
+New: Bee unit in ami (2004-12-13, stardate: 36 012) technology. Watch out!
+New: Colony defense increased in case its owner stays on the planet.
+New: Clan section - first contact :D
+New: Equipment section: you may now change your ships to faster units ;)
+Bug fixed: You don't need so much energy to prepare an attack!
+Changes: Minimum attack power needed to initiate is set to 100!
+Changes: Default colony defense changed from 100 to 500 per base level!
+Bug fixed: You cannot post too long word on a chat!
+Changes: Little changes in the code and visuals...
+
+
+2004-12-13	[ 0.3.4 ]
+
+Bug fixed: Missed some code in attack reportings.
+New: Buildings disable ability (only fusion reactors now).
+Changes: Additional (upkeep) costs of buildings and units!
+Changes: Lots of "cosmetic" fixes in pages layout!
+Changes: Mining site works a bit different ;-)
+
+
+2004-12-07	[ 0.3.3 ]
+
+New: Profile now works!
+New: Propaganda section added! Feel free to use GF artwork ;-)
+Bug fixed: Now you can safely abandon your colony!
+Testing: Access control should now work properly!
+Changes: System logs. Be awared!
+
+
+2004-12-06	[ 0.3.2 ]
+
+Changes: Default DNS domain for our game is now http://galaxy.game-host.org forum is now available through this: http://galaxy.game-host.org/forum. Change your links!!!
+Changes: Access control in phpSynapse (GF engine)! Testing!
+Changes: Some optimization stuff ;-)))
+
+
+2004-11-30	[ 0.3.1 ]
+
+Bug fixed: Exploration of the planet can't be more than 100% :-)
+Bug fixed: Fusion reactors now work only if your colony can afford that!
+Bug fixed: You can't so easy abandon your colony if you get dirty link to do that!
+Changes: Universe map is now available at galaxy section.
+Changes: You can not prepare attack against your allies.
+Changes: If someone is killed during exploration you will gain experience points - aydamusek.
+Changes: Some optimization stuff... Sometimes exploration and attack effects are missed - hope it would better SQL queries to work properly...
+
+
+2004-11-22	[ 0.3.0 ]
+Testing: Attacks... still much work to do :-(
+
+
+2004-11-19	[ 0.2.9 ]
+Not work: Attacks won't come back to you until monday's evenings, SORRY :-0
+Changes: Attack ability open for testing :-)
+Changes: Units properties (attack/damage/speed) changed!
+Bug fixed: Fusion reactor worked even if there were no uran in colony - thx 2 aydamusek!
+Bug fixed: You cannot set as avatar other files than images!
+
+
+2004-10-26	[ 0.2.8 ]
+
+Changes: Sell prices went down!
+Bug fixed: Possibility of hacking attempts using prepared forms for using unavailable places.
+Bug fixed: Possibility of hacking attempts using HTML in message subjects. ALL MESSAGES WERE DELETED!
+
+
+2004-10-12	[ 0.2.7 ]
+
+Bug fixed: Possibility of hacking attempts using GET initialized variables (belive there's much more bugs like that)...
+
+
+2004-10-06	[ 0.2.6 ]
+
+Changes: Unit names are localized now!
+Changes: Each banks can get different amount of credits!
+Changes: You cannot attack if your HP is less than 25% of maximum!
+Changes: Unit capacity is now displayed in units page.
+Bug fixed: You can explore space now - it wasn't implemented yet.
+
+
+2004-10-05	[ 0.2.5 ]
+
+Changes: Experience ratio gained during the battle changed - test it!
+Bug fixed: All available units are displayed correctly now.
+Bug fixed: Ratios changed, missed some data, check them now (i.e. uran ratio for units)... ;)))
+Bug NOT fixed: You cannot post "+" sign on chat because JavaScript code does not change it to valid URL sign :(
+Problems: There were some problems with our MySQL server but it should be ok now.
+
+
+2004-10-04	[ 0.2.4 ]
+
+Bug fixed: GG numbers shown wrong.
+Bug fixed: Laboratory name fixed :).
+Bug fixed: Gambler's House could give you strange amount of exp.
+
+
+2004-09-05	[ 0.2.3 ]
+
+Changes: You need more experience for the next level and gain less amount for skill points - sorry, it should be done!
+Changes: Much more time needed to build some structures, don't beat me! ;-)
+Changes: Researches are now available but you must have laboratory build!
+New structure: Laboratory which will be needed soon to make some researches.
+New structure: Academy where you can train some colonists for soldiers. Attack ability is coming soon (in next update) so be prepared - you cannot attack ithout soldiers!!!
+Bug fixed: finger now shows the right amount of fingered strength and agility - thanks to dziadu.
+
+
+2004-09-02	[ 0.2.2 ]
+
+You can now abandon your colony. Finaly base level 2 is available.
+Bug fixed: gambler could give you too much experience - thanks to aqilon & dziadu.
+
+
+2004-09-01	[ 0.2.1 ]
+
+Bug fixed: not metioned food capacity of flats - thanks to aqilon.
+Bug fixed: minus values could cause strange effects ;) - thanks to aqilon.
+
+
+2004-09-01	[ 0.2.0 ]
+
+Bug fixed: when reading unread message, it became first disturbing normal order.
+Bug fixed: register using special chars in login caused not existing but attackable players.
+New place: gambler's house is now ready to play!
+New place: mining site is ready to work!
+
+
+2004-08-31	[ 0.1.9 ]
+
+Bug fixed: when exploring your planet people send still eat - thanks to dziadu
+Bug fixed: you needed at least 2 Uran [U] sources and 2 silos to build a mine - thanks to halas
+New place: tracker and teleporters are now ready to use. Default damage is now 1-3 instead 1-2 and default armor is 1 instead of 0. This had to be done because of easy fighting when you have more [HP] than opponent.
+THERE IS STILL MUCH WORK TO DO! Please submit bugs to the forum site... Must go sleep now...
+
+
+2004-08-27	[ 0.1.6 ]
+
+Bug fixed: when deleting a message and refresh a page you could lost next message.
+
+
+2004-08-24	[ 0.1.4 ]
+
+First really working version released!
+
+There are still many things to do that will be available in few weeks so this is a good time to join us and start testing and of course playing.
+
+Ok, this is a joke - this is still development version... :)))
+
+Attacking and editing profile does not work at the while. And the only language version that is available is english (polish locale are coming soon) - if you want to help transalating it to your language contact me.
+
+
+2004-08-10	[ 0.1.0 ]
+
+Started to think about my own MMORPG game.
+
+Maybe it would be great time to make another virtual universe available.

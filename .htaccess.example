@@ -1,0 +1,81 @@
+############################################################
+##
+## GALAXY CORE ENGINE
+##
+## http://sf.net/projects/galaxyforces 
+## http://galaxy.alyx.pl/
+##
+############################################################
+
+
+## ACCESS CONTROL
+##
+## Edit following rules to hard block intruders
+
+<Limit GET POST>
+	Order Allow,Deny
+
+	Allow from all
+	Allow from 127.
+
+#	Deny from 1.2.3.4
+#	Deny from 64.
+
+</Limit>
+
+
+## PHP CONFIGURATION
+##
+## Uncomment following lines to change default PHP ini values 
+
+php_flag	display_errors       	On
+php_value	output_buffering		32768
+php_flag	zlib.output_compression	On
+php_flag	short_open_tag			On
+
+
+## SECURITY PROTECTION
+##
+## These lines hides secret information from web access
+## You must still protect your files from local access
+
+SetEnvIf Request_URI ".~$" protected
+SetEnvIf Request_URI ".\.(ini|lnk|link|inc|conf|bak)$" protected
+SetEnvIf Request_URI "(\.|\-)example$" protected
+SetEnvIf Request_URI ".config(uration)?(\.php)?$" protected
+
+<Files *>
+	Order Deny,Allow
+	Deny from env=protected
+</Files>
+
+
+## ERROR PAGES
+##
+## Uncomment these for redirection to desired locations on HTTP errors
+
+#ErrorDocument 403 /error/403
+#ErrorDocument 404 /error/404
+#ErrorDocument 410 /error/410
+#ErrorDocument 500 /error/500
+
+
+## ALIAS CONTROL
+##
+## Uncomment following lines and change alias name 
+## and /my/path/ to your root directory
+
+#<IfModule alias_module>
+#	Alias /vaco "/my/path/vaco"
+#</IfModule>
+
+
+## REWRITE ENGINE
+##
+## Rewrite support, uncomment it after making sure web engine will work
+## Change RewriteBase to your web location prefix
+
+#RewriteEngine on
+#RewriteBase /
+#RewriteRule .*\.(jpg|jpeg|gif|png|bmp|txt)$ -
+#RewriteRule (.*) index.php?$1

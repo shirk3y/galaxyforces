@@ -1,0 +1,606 @@
+[00:05] Desmond (~Miranda@aarw227.neoplus.adsl.tpnet.pl) left irc: Ping timeout: 121 seconds
+[11:51] Desmond (~Miranda@94.254.139.44) joined #galaxy.
+[11:51] <Desmond> Elo dropsy!
+[11:51] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[12:34] Action: Desmond slaps exitek around a bit with a large trout
+[12:34] Action: Desmond slaps lander around a bit with a large trout
+[12:35] Desmond (~Miranda@94.254.139.44) left irc: ":< 4 8 15 16 23 42_"
+[16:04] heavy_mental (~blabla@ejs10.internetdsl.tpnet.pl) joined #galaxy.
+[16:04] #galaxy: mode change '+qo heavy_mental heavy_mental' by ChanServ!service@services.ircnet.pl
+[16:04] <heavy_mental> hi
+[16:20] <exitek> re
+[17:18] zoltraks (~zoltraks@ur196.internetdsl.tpnet.pl) joined #galaxy.
+[17:18] <zoltraks> lander byæ? ten irc/index.php to chodzi w ogole? :P
+[17:23] <exitek> byc
+[17:24] <heavy_mental> albo nie byc
+[17:24] <exitek> nadpisac ;P
+[17:24] <exitek> bo dzialalo ... 
+[17:24] <exitek> ale przestalo, jak zaczalem grzebac ... a nie mialem kopii
+[17:25] <exitek> szukalem czy nie ma nowszej wersji pisga... ale nie ma
+[17:26] <zoltraks> ech wiesz
+[17:26] <exitek> pjirca*
+[17:26] <zoltraks> acha
+[17:26] <zoltraks> a cos innego zamiast pisga?
+[17:26] <exitek> pjirca ;P
+[17:27] <zoltraks> ok
+[17:27] <exitek> nie ma 
+[17:27] <exitek> albo nie znalazlem
+[17:27] <exitek> problem byl, bo Thomasowi nie dzialalo
+[17:27] <exitek> mimo, ze mi smigalo
+[17:27] <zoltraks> a jisirc?
+[17:28] <exitek> Last Updated: 2008-11-07
+[17:28] <exitek> License: Shareware $49.99
+[17:28] <zoltraks> oblookam, nadpisze to ale wersja z locala
+[17:28] <exitek> ja Ci mowilem, daj gzipa ;/
+[17:28] <zoltraks> ale co? jisirc jest LGPL
+[17:28] <zoltraks> e, looz
+[17:29] <zoltraks> musisz jeszcze mnie pomolestowac, zaczalem skrypt do baq baq robic, ale sie nie skonczyl pisac jeszcze ;P
+[17:30] <exitek> baq? oby lepszy niz ten co baqowal forum (o ile o tym mowimy) ;P 
+[17:30] <heavy_mental> co za roznica czy mi dziala
+[17:30] <heavy_mental> i tak siedze na mircu
+[17:30] <heavy_mental> :P
+[17:30] <zoltraks> no, nie wiem co baqowalo forum
+[17:30] <zoltraks> ten bedzie (bo na razie jeszcze nic nie robi) kompresowal foldery po prostu - /usr/local/sbin/baq
+[17:30] <exitek> ten sam baq co baqowal GF
+[17:30] <zoltraks> a ja wiem co tam backowalo? dump jakis i tyle
+[17:31] <zoltraks> on byl spieprzony na 100%
+[17:31] <exitek> wiemy juz ;)
+[17:31] <zoltraks> heheheh
+[17:31] <exitek> okazalo sie przy backowaniu
+[17:31] <exitek> heavy_mental: jak tobie nie dziala, to innym tez moglo nie dzialac
+[17:31] <zoltraks> dobra, siade i go pozniej zrobie, na razie dokoncze tego buga co mam w stylach i autoryzacji i zrzuce to na serwer
+[17:31] <exitek> nie wiem
+[17:32] <exitek> a, to jeszcze nie siadles? :P
+[17:32] <zoltraks> przeciez w robo siedze
+[17:32] <zoltraks> ;P
+[17:32] <exitek> do 15 miales siedziec :/
+[17:32] <zoltraks> no, niekoniecznie
+[17:32] <exitek> nadgodziny ciagniesz naciagaczu? :P
+[17:32] <zoltraks> e, nie placa mi za nadgodziny
+[17:32] <zoltraks> za to dzis przyszedlem o 10 dopiero
+[17:32] <zoltraks> bo mi sie dobrze spalo
+[17:32] <zoltraks> a musze te 40h w tygodniu byc ;P
+[17:33] <exitek> ehh... leber ;P
+[17:33] <exitek> te skanery cie wykoncza ;P
+[17:45] jpilot (~jirc@77-254-185-80.adsl.inetia.pl) joined #galaxy.
+[17:46] <exitek> eho.. zoltraks prosty chlop od skanerow, a na javie dla irca tez sie zna ;D 
+[17:46] <exitek> http://galaxy.game-host.org/irc/test
+[17:46] jpilot (~jirc@77-254-185-80.adsl.inetia.pl) left irc: "Bye bye"
+[17:47] <zoltraks> a to co?
+[17:48] <exitek> no to co zapodales 
+[17:48] <zoltraks> acha, ok
+[17:49] zoltarx (~jirc@ur196.internetdsl.tpnet.pl) joined #galaxy.
+[17:49] <zoltarx> i dobrze bedzie
+[17:49] <zoltraks> czekaj, ale to mialo byc free
+[17:49] <zoltraks> a tu "unregistered copy" :/
+[17:50] <exitek> [15:01:10 16:32:08] <exitek> Last Updated: 2008-11-07
+[17:50] <exitek> [15:01:10 16:32:08] <exitek> License: Shareware $49.99
+[17:50] <zoltraks> bo
+[17:50] <zoltraks> to nie jest to co zapodalem
+[17:50] <zoltraks> czekaj
+[17:51] <exitek> sie czepiasz.. nie mozemy ukrasc i przerobic? :/
+[17:53] <zoltraks> e, nie, bo nie masz plikow .class
+[17:53] <zoltraks> jedynie .jar'u
+[17:53] <zoltraks> .jar'y
+[17:53] <exitek> no widze, ze jary jakies brzydkie :/
+[17:54] <exitek> nie wymyslono nic do translacji jar na zrodlo? 
+[17:55] <zoltraks> no wiesz
+[17:55] <zoltraks> jary to zipy
+[17:56] <zoltraks> ale w srodku masz tylko pliki .class a nie .java (pomylilem wczesniej)
+[17:56] <zoltraks> a wiec skompilowany bajtkod javy
+[17:56] <zoltraks> i w sumie niewiele zrobisz, choc tekst "unregistered' czy "shareware" daloby sie usunac
+[17:57] <exitek> ale to nie dla nas.. bo jestesmy uczciwi :/
+[17:57] <zoltraks> szukam czegos altenatywnego
+[17:57] <zoltraks> e, tam, bez przesady
+[17:57] <exitek> ;P
+[17:57] <zoltraks> loq?
+[17:58] <exitek> ?
+[17:59] <zoltraks> czekaj
+[18:00] <zoltraks> a ten pjirc  to przeciez gpl
+[18:00] <exitek> nieno... dziala ta bramka przeciez 5 lat temu... nie wiem dlaczego by miala teraz nie dzialac (via Thomas)
+[18:00] <zoltraks> acha i s± ¼ród³a ;)
+[18:01] <zoltraks> fakt, ze sprzed 5 lat ale to pikus
+[18:01] <exitek> o pjircu mowisz?
+[18:01] <zoltraks> ta
+[18:02] <exitek> no nima nowszych ... zapomniany projekt (jak i irc)
+[18:02] <exitek> i moze nie bedziemy pisac z ogonkami ;) 
+[18:02] <zoltraks> moze bedzie ok, zawsze mozna na tych zrodlach cos pogrzebac
+[18:02] <zoltraks> albo sie to poprawi
+[18:03] <exitek> to nadpisz tylko /irc/index.php bo tam cos pojebalem 
+[18:03] <exitek> Pewnie bedzie Ci dzialac... bo mi dzialalo
+[18:03] <exitek> ale nie wiem dlaczego Thomasowi nie ;/
+[18:04] <zoltraks> tam tylko zrobiles $login=''
+[18:06] <exitek> zahashowalem kilka linii ... ale nie pomoglo... jak odhashowalem, to mi zdechlo calkiem (glupi zwyczaj moj nie robienia old'ow)
+[18:07] zoltraks (~zoltraks@ur196.internetdsl.tpnet.pl) got netsplit.
+[18:07] zoltarx (~jirc@ur196.internetdsl.tpnet.pl) got netsplit.
+[18:07] lander (lander@host36.mydevil.net) got netsplit.
+[18:08] <exitek> bywa
+[18:12] <heavy_mental> ;]
+[18:18] lander (lander@host36.mydevil.net) got lost in the net-split.
+[18:18] zoltraks (~zoltraks@ur196.internetdsl.tpnet.pl) got lost in the net-split.
+[18:18] zoltarx (~jirc@ur196.internetdsl.tpnet.pl) got lost in the net-split.
+[19:08] StatServ (stats@stats.ircnet.pl) left #galaxy (Shutting down on SIGTERM).
+[19:17] <exitek> e?
+[19:18] <heavy_mental> ;/
+[19:18] <heavy_mental> StatServ No such nick/channel
+[19:18] <heavy_mental> StatServ End of /WHOIS list.
+[19:18] <heavy_mental> -
+[19:18] <heavy_mental> ;/
+[19:20] <exitek> zdechl :/
+[19:36] StatServ (stats@stats.ircnet.pl) joined #galaxy.
+[19:37] lander (~extended@host36.mydevil.net) joined #galaxy.
+[19:42] lander (~extended@host36.mydevil.net) got netsplit.
+[19:44] StatServ (stats@stats.ircnet.pl) got netsplit.
+[19:44] lander (~extended@host36.mydevil.net) returned to #galaxy.
+[19:44] exitek (~extended@77-254-185-80.adsl.inetia.pl) got netsplit.
+[19:44] exitek (~extended@77-254-185-80.adsl.inetia.pl) returned to #galaxy.
+[19:44] StatServ (stats@stats.ircnet.pl) returned to #galaxy.
+[19:44] <heavy_mental> ...
+[19:58] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) joined #galaxy.
+[19:58] <Desmond> Elo dropsy!
+[19:58] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[19:59] StatServ (stats@stats.ircnet.pl) got netsplit.
+[19:59] exitek (~extended@77-254-185-80.adsl.inetia.pl) got netsplit.
+[19:59] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) got netsplit.
+[19:59] lander (~extended@host36.mydevil.net) got netsplit.
+[20:00] StatServ (stats@stats.ircnet.pl) returned to #galaxy.
+[20:00] exitek (~extended@77-254-185-80.adsl.inetia.pl) returned to #galaxy.
+[20:00] <heavy_mental> co oni tam znow odpieprzaja
+[20:02] <exitek> moze jakies update... 
+[20:02] <exitek> cholera ich wie
+[20:08] <heavy_mental> jednak stworzyli cos nowego na tym galaxy
+[20:08] <heavy_mental> :P
+[20:09] <heavy_mental>  	 Whisper
+[20:09] <heavy_mental> Najszybsza ze wszystkich jednostek.
+[20:09] <heavy_mental> niezle
+[20:09] <heavy_mental> 50 punktow predkosci
+[20:09] <heavy_mental> dla porownania smok ma 3 :P
+[20:10] lander (~extended@host36.mydevil.net) got lost in the net-split.
+[20:10] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) got lost in the net-split.
+[20:13] <exitek> a bee ile?
+[20:13] <heavy_mental> nie mam pojecia
+[20:13] <heavy_mental> nie dotarlem do tego
+[20:13] <heavy_mental> jeszcze
+[20:14] <heavy_mental> a drogie to whisper jak chuj
+[20:14] <heavy_mental> :P
+[20:14] <exitek> nie stac cie? ;P
+[20:14] <heavy_mental> czemu
+[20:14] <heavy_mental> moze ciebie :P
+[20:15] <heavy_mental>  	 [!] 1 225 000
+[20:15] <heavy_mental> [E] 20 000
+[20:15] <heavy_mental> [M] 7 500
+[20:15] <heavy_mental> [U] 900
+[20:15] <heavy_mental> [C] 10
+[20:15] <exitek> ³a³ 
+[20:15] <exitek> tanie nie jest
+[20:15] <heavy_mental> teraz latam w 5 minut miedzy benem i angusem
+[20:15] <heavy_mental> troche cziterski wozek
+[20:15] <exitek> ;/
+[20:16] <exitek> dobra... zaczalem budowac laboratorium... nie chce zostac w tyle ;P
+[20:18] <heavy_mental> ;]
+[20:18] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) joined #galaxy.
+[20:18] <Desmond> Elo dropsy!
+[20:18] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[20:18] <Desmond> Kurwa
+[20:18] <exitek> lap padl? ;]
+[20:19] <Desmond> E
+[20:19] <heavy_mental> o
+[20:19] <Desmond> Lap pad³ ju¿ pare dni temu ...
+[20:19] <heavy_mental> juz setny jestem
+[20:19] <exitek> stacja padla?
+[20:19] <Desmond> A teraz mi stacja pada, musze wpaœc do znajomego po zasilacz, bo mam jebanego Colorshita 230W :\
+[20:19] <heavy_mental> ;]
+[20:19] <Desmond> Chce ktoœ kupiæ matryce 15,4' ?
+[20:19] <exitek> pukanie w zasilacz pomaga ;)
+[20:20] <Desmond> Ja wolê nie pukaæ zasilaczy, to dla mnie zbocozne.
+[20:20] <heavy_mental> takiego slowa bym nie uzyl
+[20:20] <heavy_mental> wlasciwie nigdy
+[20:20] <exitek> dlaczego zboczone 
+[20:21] <exitek> facet od skanerow skonczyl upa... ma zapodac jak wroci 
+[20:21] <heavy_mental> a wlasciwie zbocozne
+[20:21] <exitek> z pracy
+[20:21] <heavy_mental>  TRINITY-Dar Przyjaciol
+[20:21] <heavy_mental> co to za nazwa
+[20:21] <Desmond> No ale ja sie nie dziwie ¿e Lander nie chce metalówy zaprosiæ
+[20:21] <heavy_mental> reklamuja cos czy jak ;/
+[20:21] <Desmond> Jak mu sie podoba pukanie zasilacza :>
+[20:21] <heavy_mental> ;]
+[20:22] <exitek> nie wazne co sie puka... liczy sie uczucie 
+[20:22] <exitek> ;)
+[20:22] <exitek> a ten klan faktycznie ma ciekawa naze ;] 
+[20:22] <Desmond> A w jakiej grze to?
+[20:22] <heavy_mental> galaxy
+[20:22] <heavy_mental> :P
+[20:22] <Desmond> Uhm
+[20:23] <Desmond> Zaraz bêdê
+[20:23] <Desmond> Ide po zasilacz
+[20:23] <exitek> no idz
+[20:32] lander (~extended@host36.mydevil.net) joined #galaxy.
+[20:34] <heavy_mental> czemu tu wlasciwie sa 3 boty z tego mydevil?
+[20:35] lander (~extended@host36.mydevil.net) got netsplit.
+[20:37] <exitek> przeszkadza ci jakis?
+[20:37] <heavy_mental> nie wiem
+[20:38] <exitek> to co sie czepiasz
+[20:38] <heavy_mental> ;/
+[20:38] <heavy_mental> jaki szorstki ;/
+[20:38] <heavy_mental> powialo chlodem
+[20:38] <exitek> i jakie 3
+[20:38] <exitek> lander
+[20:38] <exitek> i mobil
+[20:38] <exitek> ino
+[20:38] <heavy_mental> i kolejnybot
+[20:38] <heavy_mental> :P
+[20:39] <exitek> to z alyxa
+[20:39] <heavy_mental> a
+[20:39] <heavy_mental> ok
+[20:39] <heavy_mental> ;]
+[20:39] <exitek> lander to moja sesja (bo lubie miec sesje)
+[20:39] <exitek> a MoBiL to eggdrop 
+[20:39] <exitek> bo lubie miec eggdropa
+[20:39] <exitek> proste
+[20:39] <heavy_mental> :P
+[20:39] <exitek> a kolejnybot to bot do logow pisgowych
+[20:46] lander (~extended@host36.mydevil.net) got lost in the net-split.
+[20:50] heavy_chatzilla (~heavy@ejs10.internetdsl.tpnet.pl) joined #galaxy.
+[20:50] <heavy_chatzilla> mhm
+[20:50] <exitek> ?
+[20:50] <heavy_chatzilla> hm
+[20:50] Action: exitek slaps heavy_chatzilla around a bit with a large trout
+[20:51] <exitek> ;/
+[20:51] <heavy_chatzilla> o
+[20:51] <heavy_chatzilla> tu sa emoty
+[20:51] <heavy_chatzilla> ;]
+[20:51] <exitek> <plask>
+[20:51] <exitek> dziala?
+[20:51] <exitek> ;D
+[20:51] <heavy_chatzilla> tego emota nima
+[20:51] <heavy_chatzilla> ;(
+[20:51] <heavy_chatzilla> :(
+[20:51] <exitek> <dupa>
+[20:51] <heavy_chatzilla> :plask:
+[20:51] <exitek> <dick>
+[20:52] <heavy_chatzilla> raczej polskie nie beda dzialac
+[20:52] <exitek> jest :plask:
+[20:52] <heavy_chatzilla> plugi nawet do tego sa
+[20:52] <heavy_chatzilla> ciekawe
+[20:53] ex (~extended@77.255.71.231) joined #galaxy.
+[20:53] <ex> :/
+[20:53] <heavy_chatzilla> huh
+[20:55] Action: heavy_chatzilla is 21 years old. It's 18 weeks, 0 days, 7 hours, and 15 minutes since my last birthday, and 34 weeks, 0 days, 16 hours, and 45 minutes until my next birthday.
+[20:55] <heavy_chatzilla> e
+[20:56] exitek (~extended@77-254-185-80.adsl.inetia.pl) left irc: Ping timeout: 121 seconds
+[20:57] <heavy_chatzilla> dcc tez obsluguje
+[20:58] <heavy_chatzilla> dziaua?
+[20:59] <ex> cus nie idzie
+[20:59] <heavy_chatzilla> hm
+[21:03] <ex> pierdol to? ;)
+[21:06] <heavy_chatzilla> [USAGE]	rtl
+[21:06] <heavy_chatzilla> 	[HELP]	Switches text direction to Right-to-Left.
+[21:06] <heavy_chatzilla> hm
+[21:06] <heavy_chatzilla> komenda dla zydow
+[21:12] Action: heavy_chatzilla 1123
+[21:12] <heavy_chatzilla> asda
+[21:12] <Desmond> :\
+[21:12] <heavy_chatzilla> :~
+[21:13] <heavy_chatzilla> :~)
+[21:13] <heavy_chatzilla> krzywa przegroda nosowa
+[21:13] <Desmond> :\
+[21:13] <Desmond> Dobra
+[21:13] <Desmond> Przek³¹dam zasilacz
+[21:13] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) left irc: ":< 4 8 15 16 23 42_"
+[21:13] <heavy_chatzilla> :(
+[21:13] <heavy_chatzilla> :)
+[21:13] <heavy_chatzilla> :]
+[21:13] <heavy_chatzilla> :D
+[21:13] <heavy_chatzilla> ;D
+[21:13] <heavy_chatzilla> ;)
+[21:13] <heavy_chatzilla> ;/
+[21:13] <heavy_chatzilla> :\
+[21:13] <heavy_chatzilla> :>
+[21:14] <heavy_chatzilla> <3
+[21:14] <heavy_chatzilla> mhm
+[21:14] <heavy_chatzilla> ^^
+[21:14] <heavy_chatzilla> :|
+[21:14] <heavy_chatzilla> ;-)
+[21:15] <heavy_chatzilla> idealne dla dzieci interii
+[21:15] <heavy_chatzilla> :D
+[21:15] <heavy_chatzilla> choc ':D' wyglada jakby mial za duzy nos
+[21:15] <heavy_chatzilla> :P
+[21:16] <heavy_chatzilla> ;P
+[21:16] <heavy_chatzilla> :-P
+[21:16] <heavy_chatzilla> :O
+[21:16] <heavy_chatzilla> :L
+[21:16] <heavy_chatzilla> :F
+[21:16] <heavy_chatzilla> :S
+[21:16] <heavy_chatzilla> :Q
+[21:16] <heavy_chatzilla> :E
+[21:16] <heavy_chatzilla> :R
+[21:16] <heavy_chatzilla> :T
+[21:16] <heavy_chatzilla> :Y
+[21:16] <heavy_chatzilla> :U
+[21:16] <heavy_chatzilla> :?
+[21:16] <heavy_chatzilla> :!
+[21:16] <heavy_chatzilla> ??
+[21:16] <heavy_chatzilla> D:
+[21:17] <heavy_chatzilla> "|"
+[21:17] <heavy_chatzilla> :*
+[21:17] <heavy_chatzilla> :#
+[21:17] <heavy_chatzilla> :@
+[21:17] <heavy_chatzilla> jajco
+[21:21] <heavy_mental> !top10
+[21:21] <StatServ> Top 10 of #galaxy
+[21:21] <StatServ>  1 heavy_mental     letters: 59565, words: 6760, lines: 1549, smileys: 138, actions: 4
+[21:21] <StatServ>  2 Desmond          letters: 38319, words: 7068, lines: 1492, smileys: 110, actions: 51
+[21:21] <StatServ>  3 zoltraks         letters: 29999, words: 5341, lines: 1105, smileys: 51, actions: 0
+[21:21] <StatServ>  4 exitek           letters: 25102, words: 4573, lines: 980, smileys: 147, actions: 13
+[21:21] <StatServ>  5 ex               letters: 23071, words: 4107, lines: 938, smileys: 123, actions: 9
+[21:21] <StatServ>  6 mgrDesmond       letters: 16019, words: 2774, lines: 416, smileys: 43, actions: 25
+[21:21] <StatServ>  7 Aydamusek        letters: 2980, words: 544, lines: 89, smileys: 12, actions: 0
+[21:21] <StatServ>  8 dziewica         letters: 2208, words: 349, lines: 53, smileys: 0, actions: 0
+[21:21] <StatServ>  9 lalalalalala     letters: 825, words: 126, lines: 32, smileys: 4, actions: 0
+[21:21] <StatServ> 10 heavy_chatzilla  letters: 552, words: 129, lines: 66, smileys: 10, actions: 2
+[21:21] #galaxy: mode change '+o heavy_chatzilla' by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN
+[21:21] #galaxy: mode change '-o heavy_chatzilla' by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN
+[21:21] #galaxy: mode change '+v heavy_chatzilla' by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN
+[21:22] #galaxy: mode change '-v heavy_chatzilla' by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN
+[21:22] #galaxy: mode change '+h heavy_chatzilla' by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN
+[21:22] #galaxy: mode change '-h heavy_chatzilla' by heavy_mental!~blabla@Turn.The.Cross.UP.SIDE.DOWN
+[21:22] heavy_chatzilla (~heavy@ejs10.internetdsl.tpnet.pl) left irc: "ChatZilla 0.9.86 [Firefox 3.5.7/20091221164558]"
+[21:24] lander (~extended@host36.mydevil.net) joined #galaxy.
+[21:57] zoltraks (~zoltraks@chello089078211117.chello.pl) joined #galaxy.
+[22:23] <zoltraks> no
+[22:23] <zoltraks> to na razie tyle, teraz tylko trzeba poszukac co sie spsulo
+[22:37] <zoltraks> zabieram sie za 0.5.3 wiec w razie problemu, wrzucac mi na bledy na gg
+[22:43] Desmond (~Miranda@aasj158.neoplus.adsl.tpnet.pl) joined #galaxy.
+[22:43] <Desmond> Elo dropsy!
+[22:43] #galaxy: mode change '+o Desmond' by ChanServ!service@services.ircnet.pl
+[22:50] <zoltraks> o, desmond
+[22:51] <Desmond> o, zoltraks
+[22:51] <zoltraks> zrobilem wrzut z lokala na alyx
+[22:51] <zoltraks> poprawilem to menu ;)
+[22:51] <zoltraks> ale ikon nie bedzie
+[22:51] <zoltraks> chu..owe sa ;P
+[22:52] <Desmond> Nie bêdzie ikonek?
+[22:52] <Desmond> Jak to?!?
+[22:52] <Desmond> Ja chce ikonki :(
+[22:53] <zoltraks> beda
+[22:53] <zoltraks> ale nie teraz jeszcze
+[22:53] <zoltraks> ty
+[22:53] <zoltraks> dziwna sprawa
+[22:53] <zoltraks> czat niby juz ma polskie litery
+[22:53] <zoltraks> ale w ogloszeniach dalej dupa
+[22:53] <zoltraks> bez sensu :/
+[22:53] <zoltraks> acha
+[22:53] <zoltraks> cos ci pokaze jak sie zalogujesz na galaxy.alyx.pl
+[22:54] <Desmond> Jakie fajne
+[22:54] <Desmond> :D
+[22:55] <zoltraks> widzisz "otoczenie"?
+[22:55] <zoltraks> powinienes, tam jest ma³y debug dla adminów ;P
+[22:56] <Desmond> No widze
+[22:56] <Desmond> Dlatego "jakie fajne:
+[23:03] <Desmond> Ale nie ma czata z SQ
+[23:04] <zoltraks> no, nie
+[23:04] <Desmond> Tam to sie fajnie pisa³o ... tylko problem by³ ¿e jak by³y inne formularze na stronie to sie wali³o,ale ju¿ nie naprawilismy tego
+[23:04] <zoltraks> nie zdarzylem go wrzucic
+[23:04] <Desmond> Bo nie zd¹¿yliœmy
+[23:04] <Desmond> Hehe
+[23:04] <Desmond> Wspomina³em Ci ¿e menu jest za szerokie?
+[23:04] <zoltraks> no tak
+[23:04] <zoltraks> wiec zwezylem
+[23:04] <zoltraks> ;P
+[23:05] <zoltraks> ale nie do konca, bo przeciez miejsce na ikony musi byc ;P
+[23:05] <Desmond> Hm, i tak sie zmieszcz¹
+[23:05] <Desmond> A menu jest za szerokie :(
+[23:05] <zoltraks> ech
+[23:05] <Desmond> O, zzzoltan, mo¿e Ty wiesz
+[23:05] <zoltraks> dobra, zmniejsze
+[23:05] <Desmond> Mam t¹ moj¹ stacjê, i ona szwankuje
+[23:05] <zoltraks> no
+[23:06] <Desmond> Co jakiœ czas skacze obci¹zenie procka, podwiesza siê, po czym gaœnie obraz i po 2- 3 sekundach pojawia siê i system dzia³a jakby nic
+[23:06] <Desmond> Przez zgaœniêciem pojawiaj¹ siê w jednym miejscu przek³amania na obrazie (zazwyczaj przy pasku zadan, czasami gdzie indziej(
+[23:06] <zoltraks> masz moze chipset ATI?
+[23:07] <Desmond> Zasilacz wykuczam, bo wymienialem na Modecoma 350w (mia³em 330 V colorsita)
+[23:07] <zoltraks> generalnie jak dla mnie to wiesza ci grafa, ale byc moze to kwestia sterownika
+[23:07] <Desmond> Hm, neit
+[23:07] <zoltraks> wymieniales sterownik?
+[23:08] <Desmond> DO grafiki tak - ale to jest GeForce, co do p³yty, to sterowniki s¹ z p³yty któa do niej by³a
+[23:08] <zoltraks> na 3dguru powinienes znalezc to i owo, a jeszcze cos, moze grafa ci sie grzeje za bardzo
+[23:08] <zoltraks> no, to pobierz najbardziej aktualne
+[23:08] <Desmond> Chipset plyty jest na VIA
+[23:08] <zoltraks> o fuck
+[23:08] <Desmond> Hm, ale one s¹ aktualne
+[23:08] <Desmond> Najnowsze
+[23:08] <zoltraks> no to zmien je na starsze, albo alternatywne
+[23:08] <zoltraks> i jeszcze cos, zanim zmienisz sterownik
+[23:08] <Desmond> Na starszych te¿ wiesza³o sie
+[23:09] <zoltraks> sprobuj otworzyc puszke
+[23:09] <Desmond> Otwiera³em?
+[23:09] <zoltraks> moze ci po prostu sie grzeje grafa
+[23:09] <Desmond> Wyjmowa³em ?
+[23:09] <zoltraks> ech...
+[23:09] <Desmond> Hm, to nie to. Nie sprawdzalem bezpoœrednio, ale p³yta sie nie grzeje akurat (w miejscu chipsetu)
+[23:09] <zoltraks> nie plyta
+[23:09] <zoltraks> grafa
+[23:09] <zoltraks> z kolei u mnie byl podobny problem na plycie z VIA gdy mialem wlaczone laczenie zapisu na grafice
+[23:09] <Desmond> No o grafie mówie
+[23:09] <zoltraks> acha
+[23:10] <zoltraks> wiesz, no to pozostaje jeszcze jedna rzecz
+[23:10] <Desmond> Powiem Ci ¿e karta jest ca³kiem ch³odna nawet
+[23:11] <zoltraks> sprawdz czy w event viewerze nie ma jakis wpisow od sterownika grafiki
+[23:11] <Desmond> Nie ma
+[23:11] <zoltraks> tzn. w podgladzie zdarzen
+[23:11] <zoltraks> ech...
+[23:11] <zoltraks> to ja juz nic nie wiem... :P
+[23:11] <Desmond> Tylko wyskakuje b³¹d przepe³n ienia bufora myszki
+[23:11] <Desmond> Ale to pewnie zwi¹zane jest z zawieszk¹ systemu
+[23:12] <Desmond> Dysk raczej takich problemów nie daje, RAM? Ew coœ czyta³em ¿e kondensatory mog¹ takie cuœ m.in. powodowac, no ale na p³ycie s¹ one ok
+[23:12] <Desmond> Zasilacz zmieni³em i te¿ to sie dzieje
+[23:12] <zoltraks> co?
+[23:12] <zoltraks> heheh
+[23:12] <Desmond> Chocia¿ nie wiem czy nie z mniejsz¹ czêstotliwoœci¹
+[23:12] <Desmond> No to gaœniecie grafiki
+[23:13] <zoltraks> nie, no brechtam z tego przepelnienia bufora
+[23:13] <Desmond> Wczeœniej jeszcze zdarza³y siê BSODy (cmagent.ext -> utorrent ew ntoskrnl.exe -> miranda <- LOL)
+[23:13] <Desmond> Bo debugowa³em to i wyniki s¹ kuriozalne, nie mozliwe by sie przez  mirdane komp wiesza³, ale od tej pory nie mia³em wiêcej BSODów, a ordynarne zwiechy kompa.
+[23:13] <zoltraks> generalnie jak dla mnie to jest to cos z ta grafika, ale oczywiscie sterownik do chipsetu VIA tez jest wazny, bo ostatecznie to przez niego obslugiwana jest komunikacja gfx <-> ram <-> cpu
+[23:14] <Desmond> Ale to te¿ nie grzanie, bo procek ma 39 - 40C
+[23:14] <zoltraks> dobra, zalozmy, ze nie grzanie
+[23:14] <zoltraks> pozostaje jeszcze reinstall systemu
+[23:14] <Desmond> HM, sterowniki ... ja zobacze czy nie ma nowszych do p³yty g³ownej, ale ich nie aktualnoœc nie powinna powodowaæ takich objawów ..
+[23:14] <Desmond> Ech, I HATE U :P
+[23:14] <zoltraks> do plyty to pobierz z viaarena
+[23:14] <zoltraks> hyperion'a
+[23:14] <zoltraks> olej producenta
+[23:15] <zoltraks> do grafy poszukaj na 3dguru
+[23:15] <Desmond> Kurde, nie pamietam jaki to dok³adnie model p³yty jest :P
+[23:15] <zoltraks> nie musisz
+[23:15] <zoltraks> wez hyperiona - tam sa wszystkie stery do plyt z chipsetami VIA
+[23:16] <Desmond> VIA Hyperion 4in1 Drivers 5.21a ?
+[23:16] <Desmond> Iszy raz widze takie cuda
+[23:17] <Desmond> Oprócz nVidiowego CUDA
+[23:17] <zoltraks> no
+[23:17] <zoltraks> CUDA jest do d...
+[23:17] <zoltraks> tylko single obsluguje
+[23:17] <zoltraks> zobacz lepiej na Stream ;_)
+[23:18] <Desmond> Gdzie oni maja tam download?
+[23:18] <zoltraks> czy jak wy to mlodzi teraz nazywacie OpenCL
+[23:18] <zoltraks> wez stad : http://www.download.net.pl/d163/via-hyperion-4in1-drivers/
+[23:19] <zoltraks> chociaz ty, tam nowsze sa
+[23:19] <Desmond> Na stronie via jest
+[23:19] <Desmond> Download version 5.24A
+[23:19] <zoltraks> no wlasnie
+[23:19] <zoltraks> http://www.via.com.tw/en/support/drivers.jsp
+[23:20] <Desmond> No juz sciagam ;)
+[23:20] <zoltraks> http://www.viaarena.com/Driver/VIA_HyperionPro_V524A.zip
+[23:20] <zoltraks> a, ok
+[23:20] <Desmond> A przy okazji jak restart zrobie to proca przycisne
+[23:21] <zoltraks> ty
+[23:21] <Desmond> Co jak co, na tym zasilaczu jeszcze ani razu mi sie nie wy³o¿y³ (inna sprawa, ¿e go restowa³em co 30 minut bo instalowa³em to i tamto)
+[23:21] <zoltraks> podaj mi normalne FSB procka, mnoznik CPU i mnoznik RAM to ci cos wylicze
+[23:22] <Desmond> General Information :
+[23:22] <Desmond> Performance Rating :	PR-1693 (estimated)
+[23:22] <Desmond> Real Frequency :	1462.5 Mhz
+[23:22] <Desmond> Multiplier :	11x
+[23:22] <Desmond> Front Side Bus Information :
+[23:22] <Desmond> Bus Speed :	133 Mhz
+[23:22] <Desmond> FSB Frequency :	265.9 Mhz (DDR)
+[23:22] <Desmond> Initial Frequencies :
+[23:22] <Desmond> Frequency :	1466 Mhz
+[23:22] <Desmond> Bus Speed :	133.34 Mhz (DDR)
+[23:22] <Desmond> Performance Rating :	PR-1700
+[23:23] <Desmond> Mno¿nik ram?
+[23:24] <zoltraks> no, zobacz
+[23:25] <zoltraks> szyna chodzi na 133
+[23:25] <Desmond> No chodzi
+[23:25] <zoltraks> ale ddr'ki masz zapewne 400
+[23:25] <Desmond> Type :	DDR-SDRAM PC-2700 (166 Mhz)  -  [DDR-333]
+[23:25] <Desmond> dwie mam takie
+[23:25] <zoltraks> a, ok
+[23:25] <Desmond> I jedna DDR-SDRAM PC-3200 (200 Mhz)  -  [DDR-400]
+[23:25] <zoltraks> tak, ale obie chodza na mnozniku 5:4
+[23:26] <zoltraks> gdybys wyjebal te 2700 to by chodzila na 4:3
+[23:26] <Desmond> Ta
+[23:26] <Desmond> I zosta³bym z 256 mb na kompie
+[23:26] <zoltraks> no, tak
+[23:26] <Desmond> Niez³a przysz³osc mnie czeka :D
+[23:27] <zoltraks> jesli nie mozesz wyjebac tych kosci i wsadzic jednej 1G to sprobuj z FSB pogrzebac
+[23:27] <Desmond> Nie mam koœci 1 gb
+[23:27] <zoltraks> teoretycznie te kosci 166 moglyby pojsc na 200
+[23:28] <Desmond> Tzn mam, ale SODIMM tu nie wsadze :<
+[23:28] <zoltraks> wiec sprobuj obnizyc mnoznik CPU i podwyzszyc FSB do 166
+[23:28] <Desmond> Hm, w biosie czy w czym?
+[23:28] <zoltraks> no tak
+[23:28] <Desmond> Procek jest na minimum ju¿
+[23:29] <zoltraks> hmm... no dobra, w sumie to ci nic nie poradze
+[23:29] <Desmond> Je¿eli to by mia³o jazdy z kompem naprawiæ to kto wie :\
+[23:29] <zoltraks> no, nie wiem
+[23:30] <zoltraks> ja nie lubie tych pamieci 2700
+[23:30] <Desmond> Ale mam jazdy nie z tej ziemi ... pewnie to grafika znów
+[23:30] <zoltraks> prawie wszystkie u nas w agryfie sie zjebaly
+[23:30] <Desmond> Te¿ nie lubiê ,w ogóle jak w lapie mialem ddr2jki to tutaj jak widze t¹ bide na kompie to a¿ smutno mi :(
+[23:30] <zoltraks> szczegolnie szybko padaja goodramy
+[23:30] <zoltraks> ;P
+[23:30] <Desmond> Mam wra¿enie ¿e œwiat mnie nie kocha
+[23:30] <zoltraks> ech...
+[23:30] <zoltraks> wiesz co
+[23:31] <Desmond> Tak wiem
+[23:31] <zoltraks> jak chcesz miec szybki komputer, to proponuje ci go nieco obciazyc
+[23:31] <Desmond> Musze znaleŸæ robotê
+[23:31] <zoltraks> np. ceglami, albo ziemniakami
+[23:31] <zoltraks> i puscic go z dachu
+[23:31] <Desmond> No wiem
+[23:31] <Desmond> I mo¿e spadnie na kogoœ na dole
+[23:31] <Desmond> I ten ktoœ bêdzie mia³ pe³ny portfel
+[23:31] <zoltraks> heh
+[23:31] <Desmond> I sobie kupie nowy
+[23:31] <Desmond> Lepszy
+[23:31] <zoltraks> ty
+[23:31] <Desmond> Najlepszy
+[23:31] <zoltraks> ja nic nie mowie
+[23:31] <zoltraks> ale wiesz
+[23:32] <Desmond> Mam tak zrobiæ w p³yt¹ g³ówn¹ od laptopa?
+[23:32] <zoltraks> cos ci pokaze
+[23:32] <Desmond> A nie lepiej zamontowac na miotaczu p³yt g³ownych i próbowaæ obci¹c komuœ g³owê?
+[23:32] <Desmond> W³aœnie, mam Centriono na sprzeda¿ :>
+[23:33] <zoltraks> http://www.sklep.sck.com.pl/product_info.php/cPath/21_63/products_id/8640
+[23:34] <Desmond> E, nie z³amiesz mnie
+[23:34] <zoltraks> albo http://www.sklep.sck.com.pl/product_info.php/cPath/21_63/products_id/8456 + grafa, np. 9800
+[23:34] <Desmond> Mia³em DELLa poleasingowego
+[23:34] <zoltraks> wyjdzie ci ponizej 1000
+[23:34] <Desmond> I jak posz³¹ ca³a linia zasilaj¹ca ko³o procka to a¿ ¿al
+[23:34] <zoltraks> hahaha ;-)
+[23:34] <Desmond> Kondensatorki puch³y a¿ mi³o
+[23:34] <zoltraks> no to niezle
+[23:34] <Desmond> Te¿ poleasingower
+[23:34] <zoltraks> ty masz jakies szczescie do takich rzeczy
+[23:35] <Desmond> Hm, no narazie jeszcze mi sie nie zawiesi³o
+[23:35] <Desmond> Ej, a jak ruszam mysz¹ i co ok sekunde mi sie zatrzymuje (tak rytmicznie) to co to mo¿e byæ?
+[23:36] <Desmond> Kurwa
+[23:36] <Desmond> Ta metoda z ziemniakami to sensowna jest
+[23:37] <Desmond> Sprawdze HDD systemowy na wszelki wypadek
+[23:37] <zoltraks> e
+[23:37] <zoltraks> wiesz co
+[23:37] <Desmond> Nie
+[23:38] <zoltraks> ja tak mialem w xp
+[23:38] <zoltraks> i pomogl dopiero reinstall
+[23:38] <zoltraks> i to kilka razy juz tak mialem z roznymi instalacjami (z sp2, sp3, bez sp)
+[23:38] <zoltraks> i wiesz
+[23:38] <zoltraks> ty sprawdz ten zasilacz
+[23:38] <zoltraks> i nie kupuj ponizej 450W
+[23:38] <Desmond> Po co mi 450W?
+[23:39] <zoltraks> zeby mniej pradu ciagnal
+[23:39] <zoltraks> ;P
+[23:39] <zoltraks> wiem to brzmi paradoksalnie
+[23:39] <zoltraks> ale tak jest ;-P
+[23:39] <Desmond> Mo¿e
+[23:39] <Desmond> Ale to 450 W to na przysz³oœæ kto wie, narazie chyba ten 350w co mam po¿yczony nie jest z³y
+[23:39] <Desmond> W porównaniu do Colorszita ...
+[23:40] <Desmond> A chcesz kupiæ matryce do Acera?
+[23:40] <Desmond> 15,4'?
+[23:40] <zoltraks> hmm...
+[23:41] <zoltraks> ja nie, ale byc moze koles bedzie chcial, zapytam jutro
+[23:41] <zoltraks> ja raczej szukam HD do pavilona 17"
+[23:41] <zoltraks> ale nie mam siana na razie
+[23:41] <zoltraks> zaplacilem OC i zostalo mi 8 zeta
+[23:42] <Desmond> Hm
+[23:42] <Desmond> Ale ile ty zarabiasz ...
+[23:42] <zoltraks> dobra, zbijam w kime, bo cos mi sie kleja galy
+[23:42] <Desmond> Wiem, arbeit mach geld
+[23:42] <Desmond> *macht
+[23:42] <Desmond> Spoko
+[23:42] <Desmond> Sija
+[23:42] <Desmond> Kolorowych snów
+[23:42] <Desmond> Masz rybe na po¿egnanie
+[23:42] <zoltraks> no tak niby nienajgorzej, nieco ponad 3k, ale 2k wywalam do zydow z banku
+[23:42] Action: Desmond slaps zoltraks around a bit with a large trout
+[23:42] <zoltraks> ;)
+[23:43] <Desmond> ;)
+[23:43] zoltraks (~zoltraks@chello089078211117.chello.pl) left irc: "ChatZilla 0.9.85 [Firefox 3.5.4/20091016092926]"
+[23:49] <heavy_mental> hm
+[23:49] Action: heavy_mental np: lao che - mpakompabiempata [00:35m/05:32m/128kbps/44kHz/foobar2000 1.0]
+[23:49] <heavy_mental> odkad przesluchalem solowa plyte spietego jakos inaczej patrze na jego muzyke...
+[23:49] <Desmond> o0
+[23:50] <heavy_mental> Jesteœ zwyciêzc¹!
+[23:50] <heavy_mental> Zdobyte doœwiadczenie: 275 120
+[23:50] <heavy_mental> u
+[00:00] --- Sat Jan 16 2010
